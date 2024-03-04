@@ -5,13 +5,41 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: () => import('../views/home/index.vue')
-    },
-    {
-      path: '/about',
-      name: 'about',
-      component: () => import('../views/AboutView.vue')
+      name: 'DefaultLayouts',
+      component: () => import('@/components/layouts/DefaultLayouts.vue'),
+      redirect: '/',
+      children:[
+        {
+          path: '/',
+          name: 'home',
+          component: () => import('../views/home/index.vue')
+        },
+        {
+          path: '/roadmap',
+          name: 'roadmap',
+          component: () => import('@/views/roadmap/index.vue')
+        },
+        {
+          path: '/basics',
+          name: 'basics',
+          component: () => import('@/views/basics/index.vue')
+        },
+        {
+          path: '/algorithms',
+          name: 'algorithms',
+          component: () => import('@/views/algorithms/index.vue')
+        },
+        {
+          path: '/topic',
+          name: 'topic',
+          component: () => import('@/views/topic/index.vue')
+        },
+        {
+          path: '/framework',
+          name: 'framework',
+          component: () => import('@/views/framework/index.vue')
+        },
+      ]
     }
   ]
 })
