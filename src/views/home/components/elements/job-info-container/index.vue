@@ -8,11 +8,14 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, Ref } from 'vue'
+import { ref, onMounted } from 'vue'
+import type { Ref } from 'vue'
 
 const block = ref(null);
 const blockHeight = ref(0) as Ref<number>;
 onMounted(() => {
-  blockHeight.value = block.value.clientHeight;
+  if (block.value !== null) {
+    blockHeight.value = block.value.clientHeight;
+  }
 })
 </script>

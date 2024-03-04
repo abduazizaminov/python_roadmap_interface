@@ -1,7 +1,3 @@
-<script setup lang="ts">
-import { infoBlock, experienceTab, statBlock, cells, pythonIcon, jobInfoBlock } from './components'
-</script>
-
 <template>
   <div class="select-none overflow-x-hidden">
     <div class="bg-customGreen">
@@ -307,6 +303,10 @@ import { infoBlock, experienceTab, statBlock, cells, pythonIcon, jobInfoBlock } 
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+import { infoBlock, experienceTab, statBlock, cells, pythonIcon, jobInfoBlock } from './components'
+</script>
 
 <style>
 .spin-block {

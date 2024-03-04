@@ -1,11 +1,9 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
-import { Header } from '@/components'
+import { RouterView } from 'vue-router'
 </script>
 
 <template>
   <div class="font-rubik">
-    <Header></Header>
-    <RouterView />
+      <RouterView />
   </div>
 </template>
