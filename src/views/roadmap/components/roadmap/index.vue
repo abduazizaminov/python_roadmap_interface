@@ -1,6 +1,6 @@
 <template>
   <div>
-    <right-modal></right-modal>
+    <right-modal ref="right_modal"></right-modal>
     <div class="max-w-[1000px] mx-auto h-full">
       <div class="h-full" id="page-share-icons">
         <div class="">
@@ -499,11 +499,19 @@
       </div>
     </div>
   </div>
+  <button @click="open()">
+    asdfsdf
+  </button>
 </template>
 
 <script setup lang="ts">
 
 import { rightModal } from '../right-modal';
+import { ref } from 'vue';
+const right_modal = ref<any>(null)
 
 
+const open = (): void => {
+  right_modal.value.openModal()
+}
 </script>
