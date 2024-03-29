@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
+    <title>methods_and_dunder</title>
+    <style>
+        table {
+          width: 100%;
+          border-collapse: collapse;
+          margin-bottom: 20px;
+        }
+        th, td {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        th {
+          background-color: #f2f2f2;
+        }
+        code {
+          font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+          background-color: #f4f4f4;
+          padding: 2px 4px;
+          border-radius: 4px;
+        }
+      </style>
+</head>
+<body>
+    <h1>Methods And Dunder - Методҳо ва dunder-методҳо</h1>
+    <h4>Дар Python методҳо ва dunder-методҳо дар барномасозии ба объект нигаронидашуда нақши калидӣ доранд, ки рафтори махсусро барои объектҳо ва тарзи мутақобилаи онҳо бо дигар объектҳо ва операторҳои дарунсохт таъмин мекунанд.</h4>
+    <h3>Методҳо</h3>
+    <h4>Методҳои нусхабардорӣ (Instance methods) - функсияҳое мебошанд, ки дар дохили синф муайян карда мешаванд ва метавонанд дар маълумоти объекти мушаххаси он синф кор кунанд. Онҳо ба ҳолати объект тавассути параметри махсуси <code>self</code> дастрасӣ доранд, ки намунаи ҷории синфро ифода мекунад. Ин методҳо дар мисолҳои мушаххаси синф даъват карда мешаванд ва барои иҷрои амалҳо ё амалҳои хоси ҳар як объект истифода мешаванд.</h4>
+    <h4>Методҳои статикӣ (Static methods) - функсияҳое мебошанд, ки дар дохили синф муайян карда мешаванд, аммо онҳо ба маълумоти объекти синф тавассути параметри <code>self</code> дастрасӣ надоранд. Онҳо ба як мисоли мушаххаси синф алоқаманд нестанд ва онҳоро ҳам тавассути худи синф ва ҳам тавассути мисолҳои он даъват кардан мумкин аст. Ин методҳо маъмулан барои иҷрои амалҳое истифода мешаванд, ки бо синф дар маҷмӯъ алоқаманданд, на бо объектҳои мушаххаси дохили он.</h4>
+    <h4>Методҳои синф (Class methods) - функсияҳое мебошанд, ки дар дохили синф муайян шудаанд ва ба синф дар маҷмӯъ дастрасӣ доранд, на ба мисолҳои мушаххаси он. Онҳо метавонанд бо синф тавассути параметри <code>cls</code> ба ҷои <code>self</code>, ки ба онҳо имкон медиҳад, ки бо атрибутҳо ва методҳои синф ҳамкорӣ кунанд. Ин методҳо аксар вақт барои иҷро кардани амалиётҳое истифода мешаванд, ки бо синф дар маҷмӯъ алоқаманданд, на бо мисолҳои мушаххаси он.</h4>
+    <h3>Dunder-методҳо</h3>
+    <table>
+        <tr>
+            <th><h4>Метод</h4></th>
+            <th><h4>Вазифа</h4></th>
+        </tr>
+        <tr>
+            <th><h4><pre><code>__init__(self[, ...])</code></pre></h4></th>
+            <th><h4>Инитсиализатсияи объект ҳангоми сохтани он.</h4></th>        
+        </tr>
+        <tr>
+            <th><h4><pre><code>__del__(self)</code></pre></h4></th>
+            <th><h4>Озодшавии ресурсҳои объект ҳангоми нест кардани он.</h4></th>
+        </tr>
+        <tr>
+            <th><h4><pre><code>__str__(self)</code></pre></h4></th>
+            <th><h4>Бозгашти сатри объект, ки аз ҷониби функсияи <code>str()</code> истифода мебарад.</h4></th>
+        </tr>
+        <tr>
+            <th><h4><pre><code>__repr__(self)</code></pre></h4></th>
+            <th><h4>Бозгашти объект, ки аз ҷониби функсияи <code>repr()</code> истифода мебарад.</h4></th>
+        </tr>
+        <tr>
+            <th><h4><pre><code>__len__(self)</code></pre></h4></th>
+            <th><h4>Бозгашти дарозии объект, ки аз ҷониби функсияи <code>len()</code> истифода мебарад.</h4></th>
+        </tr>
+        <tr>
+            <th><h4><pre><code>__getitem__(self, key)</code></pre></h4></th>
+            <th><h4>Гирифтани элемент аз рӯи индекс ё ​​калид.</h4></th>
+        </tr>
+        <tr>
+            <th><h4><pre><code>__setitem__(self, key, value)</code></pre></h4></th>
+            <th><h4>Таъин кардани арзиш ба элемент аз рӯи индекс ё ​​калид.</h4></th>
+        </tr>
+        <tr>
+            <th><h4><pre><code>__delitem__(self, key)</code></pre></h4></th>
+            <th><h4>Хориҷ кардани элемент аз рӯи индекс ё ​​калид.</h4></th>
+        </tr>
+        <tr>
+            <th><h4><pre><code>__iter__(self)</code></pre></h4></th>
+            <th><h4>Итераторро барои объект бармегардонад.</h4></th>
+        </tr>
+        <tr>
+            <th><h4><pre><code>__next__(self)</code></pre></h4></th>
+            <th><h4>Элементи навбатии итераторро бармегардонад.</h4></th>
+        </tr>
+        <tr>
+            <th><h4><pre><code>__contains__(self, item)</code></pre></h4></th>
+            <th><h4>Тафтиш мекунад, ки оё объект дорои элементи муайяншуда аст.</h4></th>
+        </tr>
+        <tr>
+            <th><h4><pre><code>__eq__(self, other)</code></pre></h4></th>
+            <th><h4>Тафтиши баробарии ду объект (<code>==</code>).</h4></th>
+        </tr>
+        <tr>
+            <th><h4><pre><code>__ne__(self, other)</code></pre></h4></th>
+            <th><h4>Тафтиши нобаробарии байни ду объект (<code>!=</code>).</h4></th>
+        </tr>
+        <tr>
+            <th><h4><pre><code>__lt__(self, other)</code></pre></h4></th>
+            <th><h4>Тафтиши камтар аз (<code>&lt;</code>).</h4></th>
+        </tr>
+        <tr>
+            <th><h4><pre><code>__le__(self, other)</code></pre></h4></th>
+            <th><h4>Тафтиши камтар ё баробар (<code>&lt;=</code>).</h4></th>
+        </tr>
+        <tr>
+            <th><h4><pre><code>__gt__(self, other)</code></pre></h4></th>
+            <th><h4>Тафтиши бештар аз (<code>&gt;</code>).</h4></th>
+        </tr>
+        <tr>
+            <th><h4><pre><code>__ge__(self, other)</code></pre></h4></th>
+            <th><h4>Тафтиши бештар ё баробар (<code>&gt;=</code>).</h4></th>
+        </tr>
+        <tr>
+            <th><h4><pre><code>__add__(self, other)</code></pre></h4></th>
+            <th><h4>Ҷамъшавии объектҳо (<code>+</code>).</h4></th>
+        </tr>
+        <tr>
+            <th><h4><pre><code>__sub__(self, other)</code></pre></h4></th>
+            <th><h4>Тарҳи объектҳо (<code>-</code>).</h4></th>
+        </tr>
+        <tr>
+            <th><h4><pre><code>__mul__(self, other)</code></pre></h4></th>
+            <th><h4>Зарбкунии объектҳо (<code>*</code>).</h4></th>
+        </tr>
+        <tr>
+            <th><h4><pre><code>__truediv__(self, other)</code></pre></h4></th>
+            <th><h4>Тақсимоти объектҳо (<code>/</code>).</h4></th>
+        </tr>
+        <tr>
+            <th><h4><pre><code>__floordiv__(self, other)</code></pre></h4></th>
+            <th><h4>Тақсимоти бутуни объектҳо (<code>//</code>).</h4></th>
+        </tr>
+        <tr>
+            <th><h4><pre><code>mod(self, other)</code></pre></h4></th>
+            <th><h4>Боқимонда аз тақсимоти объектҳо (<code>%</code>).</h4></th>
+        </tr>
+        <tr>
+            <th><h4><pre><code>pow(self, other[, modulo])</code></pre></h4></th>
+            <th><h4>Баланд бардоштани дараҷаи объектҳо (<code>**</code>).</h4></th>
+        </tr>
+        <tr>
+            <th><h4><pre><code>neg(self)</code></pre></h4></th>
+            <th><h4>Арзиши манфии объект (<code>-</code>).</h4></th>
+        </tr>
+        <tr>
+            <th><h4><pre><code>pos(self)</code></pre></h4></th>
+            <th><h4>Арзиши мусбати объект (<code>+</code>).</h4></th>
+        </tr>
+        <tr>
+            <th><h4><pre><code>abs(self)</code></pre></h4></th>
+            <th><h4>Арзиши мутлақи объект (<code>abs()</code>).</h4></th>
+        </tr>
+        <tr>
+            <th><h4><pre><code>call(self, *args, **kwargs)</code></pre></h4></th>
+            <th><h4>Даъват кардани объект ҳамчун функсия.</h4></th>
+        </tr>
+        <tr>
+            <th><h4><pre><code>hash(self)</code></pre></h4></th>
+            <th><h4>Рамзи хэш-и объектро барои истифода дар коллексияҳои ҳашобӣ бармегардонад.</h4></th>
+        </tr>
+        </table>
+    <h2>Маводҳо барои мутоила:</h2>
+    <ul>
+        <li><h4>"Углубленный курс информатики" / Долганов Игорь Михайлович <a href="https://portal.tpu.ru/SHARED/d/DOLGANOVIM/teaching/Tab4/Lec-01.pdf">(скачать PDF)</a></h4></li>
+        <li><h4>"Python 3 Text Processing with NLTK 3 Cookbook" by Jacob Perkins <a href="https://budditha.files.wordpress.com/2021/04/python-3-text-processing-with-nltk-3-cookbook.pdf">(скачать PDF)</a></h4></li>
+        <li><h4>"Python для сетевых инженеров" / Наташа Самойленко <a href="https://pyneng.readthedocs.io/_/downloads/ru/latest/pdf/">(скачать PDF)</a></h4></li>
+    </ul>
+    <h2>Интернет – сомонаҳо бо маводҳо барои мутоила:</h2>
+    <ul>
+        <li><h4><a href="https://tproger.ru/articles/dunder-metody-zachem-oni-nuzhny-i-chto-mogut">Dunder-методы: зачем они нужны и что могут</a></h4></li>
+        <li><h4><a href="https://medium.com/@nimritakoul01/dunder-methods-in-python-9f32f2e6103b">Dunder Methods in Python</a></h4></li>
+        <li><h4><a href="https://mathspp.com/blog/pydonts/dunder-methods">Dunder methods</a></h4></li>
+    </ul>
+    <h2>Курсҳои омӯзишӣ бо воситаи Интернет дар Coursera, EdX, Khan Academy, Udemy:</h2>
+    <ul>
+        <li><h4><a href="https://www.udemy.com/course/learn-python-data-model/?couponCode=LETSLEARNNOW">Python objects with special methods - Create better classes!</a></h4></li>
+        <li><h4><a href="https://www.edx.org/learn/computer-science/massachusetts-institute-of-technology-introduction-to-computer-science-and-programming-using-python">Introduction to Computer Science and Programming Using Python</a></h4></li>
+        <li><h4><a href="https://www.coursera.org/specializations/python">Python for Everybody Specialization</a></h4></li>
+    </ul>
+    <h2>Дигар курсҳои омӯзишӣ бо воситаи Интернет:</h2>
+    <ul>
+        <li><h4><a href="https://realpython.com/lessons/python-oop-dunder-methods/">Introducing Dunder Methods</a></h4></li>
+        <li><h4><a href="https://python-course.eu/oop/magic-methods.php">Magic Methods</a></h4></li>
+        <li><h4><a href="https://diveintopython.org/learn/classes/dunder-magic-methods">Dunder or Magic Methods</a></h4></li>
+    </ul>
+    <h2>Форумҳо ё дигар шаклҳои имконпазири муҳокимаи проблемаҳо дар Интернет:</h2>
+    <ul>
+        <li><h4><a href="https://www.reddit.com/r/Python/?rdt=60471">Reddit</a></h4></li>
+        <li><h4><a href="https://www.python.org/community/forums/">Python.org</a></h4></li>
+        <li><h4><a href="https://www.cyberforum.ru/python/?ysclid=ltwhrrore5900284198">Сyberforum</a></h4></li>
+    </ul>
+    <h2>Муҳити коркарди нармафзор:</h2>
+    <ul>
+        <li><h4><a href="https://pycharm-community.en.uptodown.com/windows">PyCharm</a></h4></li>
+        <li><h4><a href="https://code.visualstudio.com/">Visual Studio Code</a></h4></li>
+        <li><h4><a href="https://jupyter.org/">Jupyter</a></h4></li>
+    </ul>
+    <h2>Онлайн муҳити санҷиши коди барномавӣ:</h2>
+    <ul>
+        <li><h4><a href="https://www.online-ide.com/online_python_compiler#google_vignette">Online Python Compiler - OnlineIDE</a></h4></li>
+        <li><h4><a href="https://bio-python.netlify.app/">Online Python - IDE, Editor, Compiler, Interpreter</a></h4></li>
+        <li><h4><a href="https://pythoncompiler.com/">Python Compiler</a></h4></li>
+    </ul>
+    <h2>Библиотека ва фреймворкҳои истифодашуда:</h2>
+    <ul>
+        <li><h4><a href="https://docs.python.org/3/library/index.html">The Python Standard Library</a></h4></li>
+    </ul>
+    <script>hljs.highlightAll();</script>
+</body>
+</html>
