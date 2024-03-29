@@ -35,9 +35,24 @@ const router = createRouter({
           component: () => import('@/views/topic/index.vue')
         },
         {
+          path: '/topic/classes',
+          name: 'classes',
+          component: () => import('@/views/topic/pages/classes.vue')
+        },
+        {
+          path: '/topic/conda',
+          name: 'conda',
+          component: () => import('@/views/topic/pages/conda.vue')
+        },
+        {
           path: '/framework',
           name: 'framework',
           component: () => import('@/views/framework/index.vue')
+        },
+        {
+          path: '/frameworks/django',
+          name: 'django',
+          component: () => import('@/views/framework/pages/django.vue')
         },
       ]
     }

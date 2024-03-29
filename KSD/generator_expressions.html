@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
+    <title>generator_expressions</title>
+</head>
+<body>
+    <h1>Generator Expressions - Ифодаҳои генераторӣ</h1>
+    <h4>Генератор дар Python - функсияест, ки итераторро бармегардонад, ки ҳангоми такрорӣ пайдарпайии арзишҳоро тавлид мекунад. Генераторҳо вақте муфиданд, ки ба мо лозим аст, ки пайдарпайии бузурги арзишҳоро ба даст орем, аммо мо намехоҳем, ки ҳамаи онҳоро дар як вақт дар хотира нигоҳ дорем.</h4>
+    <h3>Сохтани генератор дар Python</h3>
+    <h4>Мисли функсияҳои муқаррарӣ, функсияи генераторро дар Python бо истифода аз калимаи калидии <code>def</code> муайян кардан мумкин аст, аммо ба ҷои оператори <code>return</code>, оператори <code>yield</code> истифода мешавад.</h4>
+    <pre><code>
+        def generator_name(arg):
+            # Корпуси генератор
+            yield something
+    </code></pre>
+    <h4>Дар ин ҷо калимаи калидии оператори <code>yield</code> барои баргардонидани арзиш аз генератор истифода мешавад. Вақте ки генератор даъват карда мешавад, корпуси он (код) фавран иҷро карда намешавад. Ба ҷои ин, объекти генератор баргардонида мешавад, ки онро барои тавлиди арзишҳо такрор кардан мумкин аст.</h4>
+    <h4>Мисоли функсияи генератор, ки пайдарпаии рақамҳоро тавлид мекунад:</h4>
+    <pre><code>
+        def my_generator(n):
+        
+            # Оғоз кардани ҳисобкунак
+            value = 0
+        
+            # Давра то он даме, ки ҳисобкунак аз n камтар бошад, кор мекунад
+            while value < n:
+        
+                # Баргардонидани арзиши ҳисобкунак
+                yield value
+        
+                # Зиёд кардани ҳисобкунак
+                value += 1
+        
+        # Иҷрои итератсияи генератор
+        for value in my_generator(3):
+        
+            # Баровардани ҳар як арзиши аз генератор гирифташуда
+            print(value)
+    </code></pre>
+    <h4>Натиҷа:</h4>
+    <pre><code>
+        0
+        1
+        2
+    </code></pre>
+    <h4>Дар ин ҷо функсияи генератори <code>my_generator()</code> адади бутуни <code>n</code>-ро ҳамчун аргумент мегирад ва пайдарпайии ададҳоро аз <code>0</code> то <code>n-1</code> месозад. Калимаи калидии <code>yield</code> барои дарёфти арзиш аз генератор ва таваққуфи иҷрои вазифаи генератор то дархости арзиши навбатӣ истифода мешавад.</h4>
+    <h4>Сикли for тавассути объекти генератори аз ҷониби функсияи <code>my_generator()</code> сохташуда такрор мешавад ва оператори <code>print</code> ҳар як арзиши тавлидкардаи генераторро чоп мекунад. Мо инчунин метавонем объекти генераторро аз функсияи генератор бо даъвати он мисли ҳама гуна функсияи дигар созем:</h4>
+    <pre><code>
+        generator = my_range(3)
+        print(next(generator))  # 0
+        print(next(generator))  # 1
+        print(next(generator))  # 2
+    </code></pre>
+    <h3>Ифодаҳои генератор дар Python</h3>
+    <h4>Ифодаи генератор роҳи мухтасари сохтани объекти генератор мебошад. Он ба абстраксияи рӯйхат шабеҳ аст, аммо ба ҷои сохтани рӯйхат, он объекти генераторро эҷод мекунад, ки онро барои тавлиди арзишҳо такрор кардан мумкин аст.</h4>
+    <h4>Ифодаи генератор дар Python синтаксиси зерин дорад:</h4>
+    <pre><code>
+        (ифодаи for элемент in итератор)
+    </code></pre>
+    <h4>Дар ин ҷо <code>ифода</code> арзишест, ки барои ҳар як унсури итератор баргардонида мешавад.</h4>
+    <h4>Ифодаи генератор як объекти генераторро эҷод мекунад, ки ҳангоми такрорӣ арзишҳои ифодаро барои ҳар як унсури итератор як-як ба вуҷуд меорад.</h4>
+    <h4>Биёед мисоли ифодаи генераторро дар Python дида бароем:</h4>
+    <pre><code>
+        # Сохтани объекти генератор
+        squares_generator = (i * i for i in range(5))
+        
+        # Итератсия тавассути генератор ва баровардани арзишҳо
+        for i in squares_generator:
+            print(i)
+    </code></pre>
+    <h4>Натиҷа:</h4>
+    <pre><code>
+        0
+        1
+        4
+        9
+        16
+    </code></pre>
+    <h4>Дар ин ҷо мо объекти генераторро сохтем, ки ҳангоми такрорӣ ҳар як ададро дар пайдарпаӣ аз 0 то 4 мураббаъ мекунад. Сипас мо барои такрор кардани генератор ва чоп кардани арзишҳо сикли for-ро истифода мебарем.</h4>
+    <h2>Маводҳо барои мутоила:</h2>
+    <ul>
+        <li><h4>"Углубленный курс информатики" / Долганов Игорь Михайлович <a href="https://portal.tpu.ru/SHARED/d/DOLGANOVIM/teaching/Tab4/Lec-01.pdf">(скачать PDF)</a></h4></li>
+        <li><h4>"Python 3 Text Processing with NLTK 3 Cookbook" by Jacob Perkins <a href="https://budditha.files.wordpress.com/2021/04/python-3-text-processing-with-nltk-3-cookbook.pdf">(скачать PDF)</a></h4></li>
+        <li><h4>"Python для сетевых инженеров" / Наташа Самойленко <a href="https://pyneng.readthedocs.io/_/downloads/ru/latest/pdf/">(скачать PDF)</a></h4></li>
+    </ul>
+    <h2>Интернет – сомонаҳо бо маводҳо барои мутоила:</h2>
+    <ul>
+        <li><h4><a href="https://skillbox.ru/media/code/generatory_python_chto_eto_takoe_i_zachem_oni_nuzhny/">Генераторы Python: что это такое и зачем они нужны</a></h4></li>
+        <li><h4><a href="https://pythonist.ru/generatory-v-python/?ysclid=lu42k544ac182926481">Генераторы в Python и их отличие от списков и функций</a></h4></li>
+        <li><h4><a href="https://fadeevlecturer.github.io/python_lectures/notebooks/python/generators.html">Генераторы</a></h4></li>
+    </ul>
+    <h2>Курсҳои омӯзишӣ бо воситаи Интернет дар Coursera, EdX, Khan Academy, Udemy:</h2>
+    <ul>
+        <li><h4><a href="https://www.udemy.com/course/generators-in-python/?couponCode=LETSLEARNNOW">Generators in Python</a></h4></li>
+        <li><h4><a href="https://translated.turbopages.org/proxy_u/en-ru.ru.8206a39a-65fecd79-5a692f9f-74722d776562/https/www.udemy.com/course/python-3-deep-dive-part-2/">Python 3: Deep Dive (Part 2 - Iterators, Generators)</a></h4></li>
+        <li><h4><a href="https://www.coursera.org/projects/python-generators">Python Generators</a></h4></li>
+    </ul>
+    <h2>Дигар курсҳои омӯзишӣ бо воситаи Интернет:</h2>
+    <ul>
+        <li><h4><a href="https://egoroffartem.pythonanywhere.com/course/python/54">Выражения-генераторы</a></h4></li>
+        <li><h4><a href="https://ru.hexlet.io/courses/python-declarative-programming">Python: Декларативное программирование</a></h4></li>
+        <li><h4><a href="https://codebra.ru/ru/lessons-python/hellopython/13/13">Генераторы и оператор yield в Python</a></h4></li>
+    </ul>
+    <h2>Форумҳо ё дигар шаклҳои имконпазири муҳокимаи проблемаҳо дар Интернет:</h2>
+    <ul>
+        <li><h4><a href="https://www.reddit.com/r/Python/?rdt=60471">Reddit</a></h4></li>
+        <li><h4><a href="https://www.python.org/community/forums/">Python.org</a></h4></li>
+        <li><h4><a href="https://www.cyberforum.ru/python/?ysclid=ltwhrrore5900284198">Сyberforum</a></h4></li>
+    </ul>
+    <h2>Муҳити коркарди нармафзор:</h2>
+    <ul>
+        <li><h4><a href="https://pycharm-community.en.uptodown.com/windows">PyCharm</a></h4></li>
+        <li><h4><a href="https://code.visualstudio.com/">Visual Studio Code</a></h4></li>
+        <li><h4><a href="https://jupyter.org/">Jupyter</a></h4></li>
+    </ul>
+    <h2>Онлайн муҳити санҷиши коди барномавӣ:</h2>
+    <ul>
+        <li><h4><a href="https://www.online-ide.com/online_python_compiler#google_vignette">Online Python Compiler - OnlineIDE</a></h4></li>
+        <li><h4><a href="https://bio-python.netlify.app/">Online Python - IDE, Editor, Compiler, Interpreter</a></h4></li>
+        <li><h4><a href="https://pythoncompiler.com/">Python Compiler</a></h4></li>
+    </ul>
+    <h2>Библиотека ва фреймворкҳои истифодашуда:</h2>
+    <ul>
+        <li><h4><a href="https://docs.python.org/3/library/index.html">The Python Standard Library</a></h4></li>
+    </ul>
+    <script>hljs.highlightAll();</script>
+</body>
+</html>
