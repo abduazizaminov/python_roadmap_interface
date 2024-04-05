@@ -284,48 +284,60 @@
                 <tspan>OOP</tspan>
               </text>
             </g>
-            <g class="cursor-pointer" data-group-id="102-python-advanced-topics:oop:classes">
-              <rect x="351.35" y="758.35" width="166.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="405" y="784" fill="rgb(0,0,0)" font-style="normal"
-                font-weight="normal" font-size="16px">
-                <tspan>Classes</tspan>
-              </text>
-            </g>
-            <g class="cursor-pointer" data-group-id="101-python-advanced-topics:oop:inheritance">
-              <rect x="351.35" y="804.35" width="166.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="392" y="830" fill="rgb(0,0,0)" font-style="normal"
-                font-weight="normal" font-size="16px">
-                <tspan>Inheritance</tspan>
-              </text>
-            </g>
-            <g class="cursor-pointer" data-group-id="100-python-advanced-topics:oop:methods-dunder">
-              <rect x="351.35" y="850.35" width="166.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="370" y="876.5" fill="rgb(0,0,0)"
-                font-style="normal" font-weight="normal" font-size="16px">
-                <tspan>Methods, Dunder</tspan>
-              </text>
-            </g>
-            <g class="cursor-pointer" data-group-id="102-python-advanced-topics:decorators">
-              <rect x="361.35" y="622.35" width="169.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="405" y="648" fill="rgb(0,0,0)" font-style="normal"
-                font-weight="normal" font-size="16px">
-                <tspan>Decorators</tspan>
-              </text>
-            </g>
-            <g class="cursor-pointer" data-group-id="101-python-advanced-topics:regular-expressions">
-              <rect x="362.35" y="576.35" width="168.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="422" y="602" fill="rgb(0,0,0)" font-style="normal"
-                font-weight="normal" font-size="16px">
-                <tspan>RegEx</tspan>
-              </text>
-            </g>
-            <g class="cursor-pointer" data-group-id="103-python-advanced-topics:lambdas">
-              <rect x="360.35" y="668.35" width="171.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="412" y="694" fill="rgb(0,0,0)" font-style="normal"
-                font-weight="normal" font-size="16px">
-                <tspan>Lambdas</tspan>
-              </text>
-            </g>
+            <router-link to="/topic/classes">
+              <g class="cursor-pointer" data-group-id="102-python-advanced-topics:oop:classes">
+                <rect x="351.35" y="758.35" width="166.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="405" y="784" fill="rgb(0,0,0)" font-style="normal"
+                  font-weight="normal" font-size="16px">
+                  <tspan>Classes</tspan>
+                </text>
+              </g>
+            </router-link>
+            <router-link to="/topic/inheritance">
+              <g class="cursor-pointer" data-group-id="101-python-advanced-topics:oop:inheritance">
+                <rect x="351.35" y="804.35" width="166.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="392" y="830" fill="rgb(0,0,0)" font-style="normal"
+                  font-weight="normal" font-size="16px">
+                  <tspan>Inheritance</tspan>
+                </text>
+              </g>
+            </router-link>
+            <router-link to="/topic/methods-and-dunder">
+              <g class="cursor-pointer" data-group-id="100-python-advanced-topics:oop:methods-dunder">
+                <rect x="351.35" y="850.35" width="166.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="370" y="876.5" fill="rgb(0,0,0)"
+                  font-style="normal" font-weight="normal" font-size="16px">
+                  <tspan>Methods, Dunder</tspan>
+                </text>
+              </g>
+            </router-link>
+            <router-link to="/topic/decorators">
+              <g class="cursor-pointer" data-group-id="102-python-advanced-topics:decorators">
+                <rect x="361.35" y="622.35" width="169.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="405" y="648" fill="rgb(0,0,0)" font-style="normal"
+                  font-weight="normal" font-size="16px">
+                  <tspan>Decorators</tspan>
+                </text>
+              </g>
+            </router-link>
+              <router-link to="/topic/regular">
+                <g class="cursor-pointer" data-group-id="101-python-advanced-topics:regular-expressions">
+                  <rect x="362.35" y="576.35" width="168.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
+                    stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="422" y="602" fill="rgb(0,0,0)" font-style="normal"
+                    font-weight="normal" font-size="16px">
+                    <tspan>RegEx</tspan>
+                  </text>
+                </g>
+              </router-link>
+              <router-link to="/topic/lambdas">
+                <g class="cursor-pointer" data-group-id="103-python-advanced-topics:lambdas">
+                  <rect x="360.35" y="668.35" width="171.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
+                    stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="412" y="694" fill="rgb(0,0,0)" font-style="normal"
+                    font-weight="normal" font-size="16px">
+                    <tspan>Lambdas</tspan>
+                  </text>
+                </g>
+              </router-link>
             <g class="cursor-pointer" data-group-id="105-python-package-managers">
               <rect x="360.35" y="920.35" width="170.3" height="190.3" rx="2" fill="rgb(255,255,255)" fill-opacity="1"
                 stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="375" y="950.5" fill="rgb(0,0,0)"
@@ -333,48 +345,60 @@
                 <tspan>Package Managers</tspan>
               </text>
             </g>
-            <g class="cursor-pointer" data-group-id="100-python-package-managers:pypi">
-              <rect x="373.35" y="966.35" width="145.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="429" y="992.5" fill="rgb(0,0,0)"
-                font-style="normal" font-weight="normal" font-size="16px">
-                <tspan>PyPI</tspan>
-              </text>
-            </g>
-            <g class="cursor-pointer" data-group-id="101-python-package-managers:pip">
-              <rect x="374.35" y="1012.35" width="143.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="434" y="1038.5" fill="rgb(0,0,0)"
-                font-style="normal" font-weight="normal" font-size="16px">
-                <tspan>Pip</tspan>
-              </text>
-            </g>
-            <g class="cursor-pointer" data-group-id="102-python-package-managers:conda">
-              <rect x="374.35" y="1058.35" width="143.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="422" y="1084" fill="rgb(0,0,0)" font-style="normal"
-                font-weight="normal" font-size="16px">
-                <tspan>Conda</tspan>
-              </text>
-            </g>
-            <g class="cursor-pointer" data-group-id="106-python-advanced-topics:list-comprehensions">
-              <rect x="323.35" y="1151.35" width="190.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="342" y="1177" fill="rgb(0,0,0)" font-style="normal"
-                font-weight="normal" font-size="16px">
-                <tspan>List Comprehensions</tspan>
-              </text>
-            </g>
-            <g class="cursor-pointer" data-group-id="107-python-advanced-topics:generator-expressions">
-              <rect x="323.35" y="1196.35" width="190.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="335" y="1222.5" fill="rgb(0,0,0)"
-                font-style="normal" font-weight="normal" font-size="16px">
-                <tspan>Generator Expressions</tspan>
-              </text>
-            </g>
-            <g class="cursor-pointer" data-group-id="108-python-advanced-topics:paradigms">
-              <rect x="323.35" y="1241.35" width="190.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="380" y="1267.5" fill="rgb(0,0,0)"
-                font-style="normal" font-weight="normal" font-size="16px">
-                <tspan>Paradigms</tspan>
-              </text>
-            </g>
+            <router-link to="/topic/pypi">
+              <g class="cursor-pointer" data-group-id="100-python-package-managers:pypi">
+                <rect x="373.35" y="966.35" width="145.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="429" y="992.5" fill="rgb(0,0,0)"
+                  font-style="normal" font-weight="normal" font-size="16px">
+                  <tspan>PyPI</tspan>
+                </text>
+              </g>
+            </router-link>
+            <router-link to="/topic/pip">
+              <g class="cursor-pointer" data-group-id="101-python-package-managers:pip">
+                <rect x="374.35" y="1012.35" width="143.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="434" y="1038.5" fill="rgb(0,0,0)"
+                  font-style="normal" font-weight="normal" font-size="16px">
+                  <tspan>Pip</tspan>
+                </text>
+              </g>
+            </router-link>
+            <router-link to="/topic/conda">
+              <g class="cursor-pointer" data-group-id="102-python-package-managers:conda">
+                <rect x="374.35" y="1058.35" width="143.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="422" y="1084" fill="rgb(0,0,0)" font-style="normal"
+                  font-weight="normal" font-size="16px">
+                  <tspan>Conda</tspan>
+                </text>
+              </g>
+            </router-link>
+            <router-link to="/topic/comprehensions">
+              <g class="cursor-pointer" data-group-id="106-python-advanced-topics:list-comprehensions">
+                <rect x="323.35" y="1151.35" width="190.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="342" y="1177" fill="rgb(0,0,0)" font-style="normal"
+                  font-weight="normal" font-size="16px">
+                  <tspan>List Comprehensions</tspan>
+                </text>
+              </g>
+            </router-link>
+            <router-link to="/topic/generator">
+              <g class="cursor-pointer" data-group-id="107-python-advanced-topics:generator-expressions">
+                <rect x="323.35" y="1196.35" width="190.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="335" y="1222.5" fill="rgb(0,0,0)"
+                  font-style="normal" font-weight="normal" font-size="16px">
+                  <tspan>Generator Expressions</tspan>
+                </text>
+              </g>
+            </router-link>
+            <router-link to="/topic/paradigms">
+              <g class="cursor-pointer" data-group-id="108-python-advanced-topics:paradigms">
+                <rect x="323.35" y="1241.35" width="190.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="380" y="1267.5" fill="rgb(0,0,0)"
+                  font-style="normal" font-weight="normal" font-size="16px">
+                  <tspan>Paradigms</tspan>
+                </text>
+              </g>
+            </router-link>
             <g class="cursor-pointer" data-group-id="100-python-frameworks:synchronous">
               <rect x="1099.35" y="1057.35" width="152.3" height="40.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
                 stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="1129" y="1084" fill="rgb(0,0,0)"
@@ -507,6 +531,7 @@
 <script setup lang="ts">
 
 import { rightModal } from '../right-modal';
+import { RouterLink } from 'vue-router';
 import { ref } from 'vue';
 const right_modal = ref<any>(null)
 

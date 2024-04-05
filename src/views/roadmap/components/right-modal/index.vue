@@ -15,7 +15,7 @@
 <script setup lang="ts">
 import { ref, defineExpose } from 'vue';
 
-const modalCondition = ref<boolean>(true)
+const modalCondition = ref<boolean>(false)
 
 const closeModal = ():void => {
   modalCondition.value = false
