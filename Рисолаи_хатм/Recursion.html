@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
+    <title>Recursion</title>
+</head>
+<body>
+<div>
+<h1>Recursion - Рекурсия </h1>
+
+ <h4>
+    Рекурсия дар барномасозӣ ин қобилияти муайян кардани функсия бо истифода аз худи функсияи муайяншуда дар раванд мебошад. Дар математика бисёр функсияҳо бо ин роҳ муайян карда мешаванд, аз ин рӯ аксари забонҳои барномасозӣ ин равишро истифода мебаранд.
+    Ин дар Python низ кор мекунад. Одатан, барои муяайянкунии функсия, маълумоте, ки пеш дода шуда буд истифода бурда мешавад. Аммо як истисно вуҷуд
+      дорад - функсия дар бадани он метавонад худро даъват кунад. Чунин намудро дорад:
+      <pre><code>
+        def factorial(n):
+    if n <= 0:
+        return 1
+    return n * factorial(n - 1)
+      </code></pre>
+      Ин функсия факториали ададро n-hj тавассути зарб кардани адад ба факториали адади n - 1 ҳисоб мекунад.
+   <p>  Шарти ба итмомрасонидани рекурсия</p>
+      Мисоли боло шартеро истифода мебарад, ки рекурсияро бозмедорад. Агар аз функсия шартеро, ки аргументи 
+      манфиро тафтиш мекунад, хориҷ карда шавад, он гоҳ ҳангоми клик кардани ин функсия  барномаро аз кор мебарорад ё функсия такроран худашро даъват мекунад.
+      <p>Чаро рекурсия лозим аст?</p>
+      Баъзе алгоритмҳо тезтар татбиқ мешаванд, агар баҷои сикл рекурсия истифода бурда шавад.
+      .  Ҳангоми татбиқи чунин алгоритмҳо, шумо бояд дар хотир доред, ки хотираи стек
+        маҳдуд аст. Дар ин ҳолат, худи сохторҳои додаҳо одатан маҳдуданд, бинобар ин шумо набояд аз рекурсия
+         комилан даст кашед.
+         
+<ul>Хусусиятҳои рекурсия:</ul>
+    <li>Иҷрои як амалиёт якчанд маротиба бо воридоти гуногун.</li>
+     <li>Дар ҳар як қадам, мо кӯшиш мекунем, ки саҳмияҳои хурдтар гузорем, то мушкилотро хурдтар созем.</li>
+      <li> Барои қатъ кардани рекурсия шарти асосӣ лозим аст, вагарна гардиши беохир ба амал меояд.</li>
+
+
+<ul>Намудҳои рекурсия</ul>
+Рекурсияро вобаста ба тарзи даъват кардан ба 2 намуд ҷудо карда мешавад.
+<li>Бевосита - вақте ки функсия худашро даъват мекунад</li>
+<li>Бавосита - ҳангоми як функсия дар дохили худ функсияи дигарро даъват кунад ва функсияи пешинаро даъват кунад</li>
+екурсияҳоро инчунин аз рӯи шумораи даъватҳои рекурсивӣ тақсим кардан мумкин аст:
+<li>Хатӣ - вақте ки ҳангоми ҳисоб кардани натиҷаи функсия, функсия худро як маротиба даъват мекунад, 
+тавре ки дар мисоли factorial. Биёед фаҳмонем, ки "як бор" маънои шумораи умумии даъватҳои функсионалии 
+танаро надорад. Сухан дар бораи шумораи даъватҳое меравад, ки натичахои онхо барои як хисоби умумй заруранд</li>
+<li>Каскад - вақте ки функсия якчанд маротиба худро даъват мекунад</li>
+
+<p>Мисоли рекурсияи хатӣ</p>
+Агар рекурсия дар функсия гипотезаи Collatz-ро санҷида бошад , он хатӣ ҳисобида мешавад :
+<pre><code>
+    def collatz(n):
+    if n == 1:
+        return True
+    if n % 2 == 0:
+        return collatz(n // 2)
+    return collatz(n * 3 + 1)   
+</code></pre>
+Дар ин ҷо дар тани функсия ду намуди даъвати рекурсивӣ мавҷуд аст, аммо дар ҳар як даъват танҳо як даъват
+ истифода мешавад.
+ Мисоли дигари истифодаи рекурсияи хатӣ ин гузариш аз коллексияҳо мебошад.
+ Барои ин,  коллексияро ба таври рекурсивӣ чунин муаррифӣ карда мешавад:
+<li>Сар</li>
+<li>Қисми боқимондаи коллексия</li><br>
+<pre><code>
+    def sum(array):
+    # Мы можем использовать оператор упаковки для записи в хвост остальной части списка
+    head, *tail = array
+    if not tail:
+        return head
+    return head + sum(tail)
+</code></pre>
+<p>Намунаи рекурсияи каскади</p>
+Агар рекурсия дар функсия бо Адади Фибоначчи ҳисоб карда шавад, он каскади ҳисобида мешавад:
+<pre><code>
+    def fibonacci(n):
+    if n <= 2:
+        return 1
+    return fibonacci(n - 1) + fibonacci(n - 2)
+</code></pre.>
+Дар инҷо функсия ҳамеша худро ду маротиба даъват мекунад.
+Дар аввал ду маротиба даъват мешавад, ки ба чор маротиба табдил меёбад. Яъне ду даъват ба ду маротиба  табдил меёбад. Пас аз ҳашт - шумораи зангҳо каскад меафзояд
+
+    </h4>
+<h2>Маводҳо барои мутолиа:</h2>
+ <h4>  <li><a href="https://ia801807.us.archive.org/26/items/data-structures-and-algorithms-in-python-pdfdrive/Data%20Structures%20and%20Algorithms%20in%20Python%20%28%20PDFDrive%20%29.pdf">Data Structures and
+    Algorithms in Python:Michael T. Goodrich,Roberto Tamassia, Michael H. Goldwasser/4 Recursion саҳ: 148</a></li>
+       <li><a href="https://pythonru.com/osnovy/rekursiya-python">Рекурсивная функция в python</a></li>   
+       <li><a href="https://education.yandex.ru/handbook/python/article/rekursiya-dekoratory-generatory">Рекурсия. Декораторы. Генераторы</a></li>
+</h4>   
+
+   <h2>Интернет – сомонаҳо бо маводҳо барои мутоила:</h2>
+<h4>
+       <li><a href="https://proghunter.ru/articles/recursion-in-python-overview-and-examples">Рекурсия в Python: Обзор и Примеры</a></li>
+       <li><a href="https://pythonist.ru/rekursiya-v-python/">Рекурсия в Python: плюсы и минусы использования</li>   
+       <li><a href="https://docs-python.ru/tutorial/opredelenie-funktsij-python/rekursija/">Рекурсия в Python, примеры кода</a></li>
+</h4>
+
+<h2>Курсҳои омӯзишӣ бо воситаи Интернет дар Coursera, EdX, Khan Academy, Udemy:</h2>
+<h4>
+       <li><a href="https://www.edx.org/learn/python/codio-python-programming-intermediate-concepts?index=product&queryID=d4c69fd9319e2f1b0e81630d225c3cf8&position=1&results_level=first-level-results&term=recursion+python&objectID=course-0d486492-4928-4e13-a8b0-38d72297b9f0&campaign=Python+Programming%3A+Intermediate+Concepts&source=edX&product_category=course&placement_url=https%3A%2F%2Fwww.edx.org%2Fsearch">Codio: Python Programming: Intermediate Concepts</a></li>
+       <li><a href="https://www.coursera.org/learn/python-object-basics">Python Object Basics: Functions, Recursion, and Objects</a></li>   
+       <li><a href="https://www.udemy.com/course/learn-recursion/?couponCode=ST13MT40224">Recursion</a></li>
+</h4>
+
+<h2>Дигар курсҳои омӯзишӣ бо воситаи Интернет:</h2>
+<h4>
+    <li><a href="https://egoroffartem.pythonanywhere.com/course/python/rekursiya-v-python-rekursivnaya-funktsiya-chast-2">Рекурсия в Python. Рекурсивная функция</a></li>
+    <li><a href="https://stepik.org/lesson/372094/step/2">Рекурсивная функция</a></li> 
+    <li><a href="https://it-start.online/articles/rekursija-v-python">Рекурсия в Python</a></li></h4>
+<h2>Форумҳо ё дигар шаклҳои имконпазири муҳокимаи проблемаҳо дар Интернет:</h2>
+<h4>
+    <li><a href="https://www.cyberforum.ru/python-beginners/">Python для начинающих</a></li>
+    <li><a href="https://programmersforum.ru/showthread.php?t=345452">Форум программистов</a></li>   
+    <li><a href="https://python.su/forum/">Python-сообщество</a></li>
+</h4>
+
+<h2>Муҳити коркарди нармафзор</h2>
+<h4>
+<li><a href="https://www.sublimetext.com/">Sublime Text</a></li>
+<li><a href="https://pycharm-community.en.uptodown.com/windows">PyCharm</a></li>
+<li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
+</h4>
+<h2>Онлайн муҳити санҷиши коди барномавӣ:</h2>
+<h4><li><a href="https://www.programiz.com/python-programming/online-compiler/">Python Online Compiler</a></li>
+<li><a href="https://bio-python.netlify.app/">Online Python - IDE, Editor, Compiler, Interpreter</a></li>
+<li><a href="https://www.online-ide.com/online_python_compiler#google_vignette">Online Python Compiler - OnlineIDE</a></li>
+</h4>
+<h2>Библиотека ва фреймворкҳои истифодашуда:</h2>
+<h4><li><a href="https://numpy.org/">NumPy</a></li>
+<li><a href="https://scipy.org/">SciPy</a></li>
+<li><a href="https://matplotlib.org/">Matplotlib</a></li></h4>
+
+<script>hljs.highlightAll();</script>
+</body>
