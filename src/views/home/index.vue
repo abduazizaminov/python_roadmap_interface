@@ -1,5 +1,5 @@
 <template>
-  <div class="select-none overflow-x-hidden">
+  <div class=" overflow-x-hidden">
     <div class="bg-customGreen">
       <div class="lg:max-w-7xl w-full ml-auto mr-auto">
         <div class="lg:px-[64px] md:px-[32px] px-[24px] py-[40px]">
@@ -7,17 +7,17 @@
             <div class="z-50 ">
               <div class="text-white">
                 <h2 class="text-[32px] leading-[50px] mb-[18px]">
-                  Профессия
+                  Касби 
                 </h2>
                 <h1 class="text-[86px] font-medium leading-[86px]">
                   Python - <br>
-                  разработчик
+                  таҳиякунанда
                 </h1>
               </div>
               <div class="mt-[42px] text-[20px]">
-                <span class="font-bold">Освойте Python с нуля</span> и начните новую <br>
-                карьеру с позиции junior-разработчика уже <br>
-                через 3 месяца обучения
+                <span class="font-bold">Python-ро аз сифр омӯзед</span> ва аз нав оғоз кунед <br>
+                  мансаб аз вазифаи таҳиягари хурд аллакай <br>
+                  пас аз 3 моҳи омӯзиш
               </div>
               <div class="mt-[60px] font-ibm mb-[32px] flex">
                 <div
