@@ -47,6 +47,22 @@ const router = createRouter({
           name: 'hash-tables',
           component: () => import('@/views/algorithms/pages/hash-tables.vue')
         },
+        {
+          path: '/algorithms/heaps',
+          name: 'heaps',
+          component: () => import('@/views/algorithms/pages/heaps.vue')
+        },
+        {
+          path: '/algorithms/recursion',
+          name: 'recursion',
+          component: () => import('@/views/algorithms/pages/recursion.vue')
+        },
+        {
+          path: '/algorithms/sorting',
+          name: 'sorting',
+          component: () => import('@/views/algorithms/pages/sorting.vue')
+        },
+
 
         //Advanced topic
 
