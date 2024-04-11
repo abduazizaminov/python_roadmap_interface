@@ -53,36 +53,36 @@
     <div class="lg:max-w-7xl w-full ml-auto mr-auto">
       <div class="lg:px-[64px] md:px-[32px] px-[24px] py-[40px]">
         <h2 class="text-5xl mb-[27px] leading-[74px]">
-          Курс подойдет вам, если вы…
+          Дастури рақамии харитаи роҳи барномасозони Python метавонад муфид бошад ба...
         </h2>
         <div class="grid lg:grid-cols-12 md:grid-cols-8 grid-cols-4 gap-[40px]">
           <div class="col-span-4">
             <info-block>
               <template #header>
-                Совсем новичок
+                Навомӯзон
               </template>
               <div>
-                Получите новую профессию с нуля, без технического образования и опыта
+                Дар таҳияи стратегияи омӯзиш ва фаҳмидани қадамҳои азхудкунии мафҳумҳо ва малакаҳои калидӣ дар роҳи азхудкунии забони Python кӯмак мекунад
               </div>
             </info-block>
           </div>
           <div class="col-span-4">
             <info-block>
               <template #header>
-                Инженер в IT
+                Донишҷӯён
               </template>
               <div>
-                Освойте востребованные навыки, смените направление в работе и прокачайте карьеру
+                Кӯмак мекунад, ки дониши худро ташкил кунанд, омӯзиши забонро авлавият диҳанд ва вақти худро самаранок истифода баранд, то дар барномасозии Python муваффақ шаванд
               </div>
             </info-block>
           </div>
           <div class="col-span-4">
             <info-block>
               <template #header>
-                Начинающий программист
+                Барномасозон
               </template>
               <div>
-                Изучайте Python эффективно — с программой, практикой и наставником
+                Ба барномасозон дар сохтори донишҳои худ, муайян кардани самтҳои омӯзиши амиқ ва рушди малакаҳои Python барои ноил шудан ба сатҳи баланди салоҳият ва касбӣ дар кори худ кӯмак хоҳад кард
               </div>
             </info-block>
           </div>
@@ -91,35 +91,34 @@
       <div class="lg:px-16 md:px-8 px-6 py-10">
         <div class="mb-10">
           <h2 class="text-[46px] mb-[50px] font-medium leading-[51px]">
-            Вы получите реальный опыт
+            Шумо таҷрибаи воқеӣ хоҳед гирифт
           </h2>
           <div class="grid grid-cols-2 lg:gap-20 gap-14">
             <div class="border-customGreen border-[3px] lg:col-span-1 col-span-2 rounded-lg px-[33px] py-10">
               <p class="text-[#181818] text-3xl font-medium leading-9">
                 <span class="text-[#36b34a]">
-                  7 из 10
+                  Аз 10 корфармо 7 нафараш
                 </span>
-                работодателей нанимают людей с опытом
+                одамони дорои таҷрибаро ба кор мегиранд
               </p>
             </div>
             <div class="text-lg lg:col-span-1 col-span-2 leading-[22px]">
               <h5 class="font-medium mb-2">
-                Почему практика важна?
+                Чаро амалия муҳим аст?
               </h5>
               <p>
-                Практика способствует развитию креативности и умения решать проблемы.
-                При работе над проектами студенты сталкиваются с различными препятствиями и ошибками, что требует анализа
-                и
-                поиска оптимальных решений.
-                Такой опыт помогает формировать умение мыслить логически и аналитически, а также улучшает навыки поиска
-                информации и самообучения.
+                Амалия ба рушди эҷодкорӣ ва қобилияти ҳалли мушкилот мусоидат мекунад.
+                Ҳангоми кор дар лоиҳаҳо, донишҷӯен бо монеаҳо ва хатогиҳои гуногун дучор меоянд, ки таҳлил ва
+                ҷустуҷӯи ҳалли оптималӣ.
+                Чунин таҷриба ба ташаккули қобилияти фикрронии мантиқӣ ва таҳлилӣ кӯмак мекунад ва инчунин малакаҳои ҷустуҷӯро такмил медиҳад
+                маълумот ва худомӯзӣ.
               </p>
             </div>
           </div>
         </div>
         <div>
           <h3 class="text-3xl mb-[30px] font-medium leading-9 text-[#181818]">
-            Реальный опыт даст студентам:
+            Таҷрибаи воқеӣ ба шумо медиҳад:
           </h3>
           <div class="grid grid-cols-4 gap-x-24 gap-y-12">
             <experience-tab>
@@ -127,7 +126,7 @@
                 01
               </template>
               <template #text>
-                Реальные проекты в портфолио
+                Лоиҳаҳои воқеӣ дар портфел
               </template>
             </experience-tab>
             <experience-tab>
@@ -135,7 +134,7 @@
                 02
               </template>
               <template #text>
-                Участие в стажировках и хакатонах
+                Иштирок дар таҷрибаомӯзӣ ва ҳакатонҳо
               </template>
             </experience-tab>
             <experience-tab>
@@ -143,7 +142,7 @@
                 03
               </template>
               <template #text>
-                Шанс получить оффер от компании-заказчика
+                Имконияти гирифтани оффер аз ширкати фармоишгар
               </template>
             </experience-tab>
             <experience-tab>
@@ -151,7 +150,7 @@
                 04
               </template>
               <template #text>
-                Опыт работы над проектом в команде
+                Таҷрибаи кор дар лоиҳа дар як гурӯҳ
               </template>
             </experience-tab>
           </div>
@@ -163,7 +162,7 @@
             <span class="text-customGreen">
               Python
             </span>
-            - самый подходящий язык программирования для новичков
+            беҳтарин забони барномасозӣ барои шурӯъкунандагон аст
           </h2>
           <div class="mb-3">
             <cells></cells>
@@ -173,47 +172,47 @@
           <div class="col-span-1">
             <stat-block>
               <template #head>
-                <span class="text-[52px] leading-[81px]">
+                ҷои <span class="text-[52px] leading-[81px]">
                   2
-                </span> место
+                </span>-юм
               </template>
               <template #default>
-                в рейтинге популярности языков программирования
+                дар рейтинги маъруфияти забонҳои барномасозӣ
               </template>
               <template #source>
-                По данным GitHub
+                Мувофиқи маълумот GitHub
               </template>
             </stat-block>
           </div>
           <div class="col-span-1">
             <stat-block>
               <template #head>
-                более
+                бештар
                 <span class="text-[52px] leading-[81px]">
                   1600
                 </span>
               </template>
               <template #default>
-                вакансий Python-разработчиков на портале поиска работы
+                ҷойҳои холии таҳиягарони Python дар портали ҷустуҷӯи кор
               </template>
               <template #source>
-                По данным HH.ru
+                Мувофиқи маълумот Hh.ru
               </template>
             </stat-block>
           </div>
           <div class="col-span-1">
             <stat-block>
               <template #head>
-                на
+                ба
                 <span class="text-[52px] leading-[81px]">
                   10%
                 </span>
               </template>
               <template #default>
-                каждый год стабильно растут средние зарплаты разработчиков
+                музди миёнаи таҳиягарон ҳар сол мунтазам меафзояд
               </template>
               <template #source>
-                По данным Habr
+                Мувофиқи маълумоти Habr
               </template>
             </stat-block>
           </div>

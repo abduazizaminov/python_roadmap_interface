@@ -24,12 +24,48 @@ const router = createRouter({
           name: 'basics',
           component: () => import('@/views/basics/index.vue')
         },
+
+        //Algorithms
+
         {
           path: '/algorithms',
           name: 'algorithms',
           component: () => import('@/views/algorithms/index.vue')
         },
+        {
+          path: '/algorithms/binary-search',
+          name: 'binary-search',
+          component: () => import('@/views/algorithms/pages/binary-search.vue')
+        },
+        {
+          path: '/algorithms/arrays',
+          name: 'arrays',
+          component: () => import('@/views/algorithms/pages/arrays.vue')
+        },
+        {
+          path: '/algorithms/hash-tables',
+          name: 'hash-tables',
+          component: () => import('@/views/algorithms/pages/hash-tables.vue')
+        },
+        {
+          path: '/algorithms/heaps',
+          name: 'heaps',
+          component: () => import('@/views/algorithms/pages/heaps.vue')
+        },
+        {
+          path: '/algorithms/recursion',
+          name: 'recursion',
+          component: () => import('@/views/algorithms/pages/recursion.vue')
+        },
+        {
+          path: '/algorithms/sorting',
+          name: 'sorting',
+          component: () => import('@/views/algorithms/pages/sorting.vue')
+        },
+
+
         //Advanced topic
+
         {
           path: '/topic',
           name: 'topic',
@@ -95,7 +131,9 @@ const router = createRouter({
           name: 'regular',
           component: () => import('@/views/topic/pages/regular.vue')
         },
+        
         //Learn a Framework
+
         {
           path: '/framework',
           name: 'framework',
@@ -105,6 +143,71 @@ const router = createRouter({
           path: '/frameworks/django',
           name: 'django',
           component: () => import('@/views/framework/pages/django.vue')
+        },
+        {
+          path: '/frameworks/aiohttp',
+          name: 'aiohttp',
+          component: () => import('@/views/framework/pages/aiohttp.vue')
+        },
+        {
+          path: '/frameworks/asynchronous',
+          name: 'asynchronous',
+          component: () => import('@/views/framework/pages/asynchronous.vue')
+        },
+        {
+          path: '/frameworks/doctest',
+          name: 'doctest',
+          component: () => import('@/views/framework/pages/doctest.vue')
+        },
+        {
+          path: '/frameworks/fastapi',
+          name: 'fastapi',
+          component: () => import('@/views/framework/pages/fastapi.vue')
+        },
+        {
+          path: '/frameworks/flask',
+          name: 'flask',
+          component: () => import('@/views/framework/pages/flask.vue')
+        },
+        {
+          path: '/frameworks/gevent',
+          name: 'gevent',
+          component: () => import('@/views/framework/pages/gevent.vue')
+        },
+        {
+          path: '/frameworks/nose',
+          name: 'nose',
+          component: () => import('@/views/framework/pages/nose.vue')
+        },
+        {
+          path: '/frameworks/pyramid',
+          name: 'pyramid',
+          component: () => import('@/views/framework/pages/pyramid.vue')
+        },
+        {
+          path: '/frameworks/pytest',
+          name: 'pytest',
+          component: () => import('@/views/framework/pages/pytest.vue')
+        },
+        {
+          path: '/frameworks/pyUnit',
+          name: 'pyUnit',
+          component: () => import('@/views/framework/pages/pyUnit.vue')
+        },
+        {
+          path: '/frameworks/sanic',
+          name: 'sanic',
+          component: () => import('@/views/framework/pages/sanic.vue')
+        },
+        {
+          path: '/frameworks/synchronous',
+          name: 'synchronous',
+          component: () => import('@/views/framework/pages/synchronous.vue')
+        },
+        {
+          path: '/frameworks/tornado',
+          name: 'tornado',
+          component: () => import('@/views/framework/pages/tornado.vue')
         },
       ]
     }

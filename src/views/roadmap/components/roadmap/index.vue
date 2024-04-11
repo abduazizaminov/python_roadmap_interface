@@ -121,7 +121,7 @@
             <path d="M764 419.75719863176073Q764.3366734589504 445.19348262822604 764 475" fill="none"
               stroke="rgb(153,0,255)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"
               stroke-dasharray="undefined"></path>
-            <g class="cursor-pointer" data-group-id="100-python-basics">
+            <g class="select-none" data-group-id="100-python-basics">
               <rect x="645.35" y="468.35" width="259.3" height="40.3" rx="2" fill="rgb(255,255,0)" fill-opacity="1"
                 stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="713" y="495.5" fill="rgb(0,0,0)"
                 font-style="normal" font-weight="normal" font-size="16px">
@@ -170,7 +170,7 @@
                 <tspan>Functions, Builtin Functions</tspan>
               </text>
             </g>
-            <g class="cursor-pointer" data-group-id="101-data-structures-and-algorithms">
+            <g class="select-none" data-group-id="101-data-structures-and-algorithms">
               <rect x="974.35" y="592.35" width="259.3" height="40.3" rx="2" fill="rgb(255,255,0)" fill-opacity="1"
                 stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="994" y="619.5" fill="rgb(0,0,0)"
                 font-style="normal" font-weight="normal" font-size="16px">
@@ -219,7 +219,7 @@
                 <tspan>Sorting Algorithms</tspan>
               </text>
             </g>
-            <g class="cursor-pointer" data-group-id="102-python-advanced-topics">
+            <g class="select-none" data-group-id="102-python-advanced-topics">
               <rect x="643.35" y="711.35" width="308.3" height="40.3" rx="2" fill="rgb(255,255,0)" fill-opacity="1"
                 stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="737" y="738.5" fill="rgb(0,0,0)"
                 font-style="normal" font-weight="normal" font-size="16px">
@@ -254,21 +254,21 @@
                 <tspan>Iterators</tspan>
               </text>
             </g>
-            <g class="cursor-pointer" data-group-id="106-python-frameworks">
+            <g class="select-none" data-group-id="106-python-frameworks">
               <rect x="782.35" y="1131.35" width="229.3" height="40.3" rx="2" fill="rgb(255,255,0)" fill-opacity="1"
                 stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="827" y="1158" fill="rgb(0,0,0)" font-style="normal"
                 font-weight="normal" font-size="16px">
                 <tspan>Learn a Framework</tspan>
               </text>
             </g>
-            <g class="cursor-pointer" data-group-id="108-python-testing">
+            <g class="select-none" data-group-id="108-python-testing">
               <rect x="753.35" y="1468.35" width="180.3" height="40.3" rx="2" fill="rgb(255,255,0)" fill-opacity="1"
                 stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="780" y="1495.5" fill="rgb(0,0,0)"
                 font-style="normal" font-weight="normal" font-size="16px">
                 <tspan>Testing your Apps</tspan>
               </text>
             </g>
-            <g class="cursor-pointer" data-group-id="ext_link:roadmap.sh/backend">
+            <g class="select-none" data-group-id="ext_link:roadmap.sh/backend">
               <rect x="619.35" y="250.35" width="371.3" height="47.3" rx="2" fill="rgb(65,53,214)" fill-opacity="1"
                 stroke="rgb(65,53,214)" stroke-width="2.7"></rect><text x="645" y="280" fill="rgb(255,255,255)"
                 font-style="normal" font-weight="normal" font-size="17px">
@@ -397,135 +397,139 @@
                   font-style="normal" font-weight="normal" font-size="16px">
                   <tspan>Paradigms</tspan>
                 </text>
+              </g>  
+            </router-link>
+            <router-link to="/frameworks/synchronous">
+              <g class="cursor-pointer" data-group-id="100-python-frameworks:synchronous">
+                <rect x="1099.35" y="1057.35" width="152.3" height="40.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="1129" y="1084" fill="rgb(0,0,0)"
+                  font-style="normal" font-weight="normal" font-size="16px">
+                  <tspan>Synchronous</tspan>
+                </text>
               </g>
             </router-link>
-            <g class="cursor-pointer" data-group-id="100-python-frameworks:synchronous">
-              <rect x="1099.35" y="1057.35" width="152.3" height="40.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="1129" y="1084" fill="rgb(0,0,0)"
-                font-style="normal" font-weight="normal" font-size="16px">
-                <tspan>Synchronous</tspan>
-              </text>
-            </g>
-            <g class="cursor-pointer" data-group-id="100-python-frameworks:synchronous:django">
-              <rect x="951.35" y="966.35" width="84.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="968" y="992" fill="rgb(0,0,0)" font-style="normal"
-                font-weight="normal" font-size="16px">
-                <tspan>Django</tspan>
-              </text>
-            </g>
-            <g class="cursor-pointer" data-group-id="101-python-frameworks:synchronous:flask">
-              <rect x="951.35" y="1012.35" width="85.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="975" y="1038" fill="rgb(0,0,0)" font-style="normal"
-                font-weight="normal" font-size="16px">
-                <tspan>Flask</tspan>
-              </text>
-            </g>
-            <g class="cursor-pointer" data-group-id="102-python-frameworks:synchronous:pyramid">
-              <rect x="951.35" y="1058.35" width="85.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="965" y="1084.5" fill="rgb(0,0,0)"
-                font-style="normal" font-weight="normal" font-size="16px">
-                <tspan>Pyramid</tspan>
-              </text>
-            </g>
-            <g class="cursor-pointer" data-group-id="101-python-frameworks:asynchronous">
-              <rect x="1096.35" y="1212.35" width="153.3" height="40.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="1122" y="1239.5" fill="rgb(0,0,0)"
-                font-style="normal" font-weight="normal" font-size="16px">
-                <tspan>Asynchronous</tspan>
-              </text>
-            </g>
-            <g class="cursor-pointer" data-group-id="100-python-frameworks:asynchronous:gevent">
-              <rect x="957.35" y="1212.35" width="88.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="977" y="1238" fill="rgb(0,0,0)" font-style="normal"
-                font-weight="normal" font-size="16px">
-                <tspan>gevent</tspan>
-              </text>
-            </g>
-            <g class="cursor-pointer" data-group-id="101-python-frameworks:asynchronous:aiohttp">
-              <rect x="958.35" y="1258.35" width="86.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="977" y="1284" fill="rgb(0,0,0)" font-style="normal"
-                font-weight="normal" font-size="16px">
-                <tspan>aiohttp</tspan>
-              </text>
-            </g>
-            <g class="cursor-pointer" data-group-id="102-python-frameworks:asynchronous:tornado">
-              <rect x="957.35" y="1304.35" width="88.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="972" y="1330" fill="rgb(0,0,0)" font-style="normal"
-                font-weight="normal" font-size="16px">
-                <tspan>Tornado</tspan>
-              </text>
-            </g>
-            <g class="cursor-pointer" data-group-id="103-python-frameworks:asynchronous:sanic">
-              <rect x="957.35" y="1350.35" width="88.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="981" y="1376" fill="rgb(0,0,0)" font-style="normal"
-                font-weight="normal" font-size="16px">
-                <tspan>Sanic</tspan>
-              </text>
-            </g>
-            <g class="cursor-pointer" data-group-id="102-python-frameworks:fastapi">
-              <rect x="1200.35" y="1132.35" width="86.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="1216" y="1158.5" fill="rgb(0,0,0)"
-                font-style="normal" font-weight="normal" font-size="16px">
-                <tspan>FastAPI</tspan>
-              </text>
-            </g>
-            <g class="cursor-pointer" data-group-id="100-python-testing:unittest-pyunit">
-              <rect x="494.35" y="1480.35" width="151.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="512" y="1506.5" fill="rgb(0,0,0)"
-                font-style="normal" font-weight="normal" font-size="16px">
-                <tspan>unittest / pyUnit</tspan>
-              </text>
-            </g>
-            <g class="cursor-pointer" data-group-id="101-python-testing:pytest">
-              <rect x="494.35" y="1433.35" width="151.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="548" y="1459" fill="rgb(0,0,0)" font-style="normal"
-                font-weight="normal" font-size="16px">
-                <tspan>pytest</tspan>
-              </text>
-            </g>
-            <g class="cursor-pointer" data-group-id="102-python-testing:doctest">
-              <rect x="494.35" y="1341.35" width="151.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="543" y="1367" fill="rgb(0,0,0)" font-style="normal"
-                font-weight="normal" font-size="16px">
-                <tspan>doctest</tspan>
-              </text>
-            </g>
-            <g class="cursor-pointer" data-group-id="102-python-testing:nose">
-              <rect x="494.35" y="1387.35" width="151.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="552" y="1412" fill="rgb(0,0,0)" font-style="normal"
-                font-weight="normal" font-size="16px">
-                <tspan>nose</tspan>
-              </text>
-            </g>
-            <path d="M883 1673Q882.9813343538359 1734.6968737744412 883 1812" fill="none" stroke="rgb(43,120,228)"
-              stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
-            <rect x="596.35" y="1605.35" width="549.3" height="121.3" rx="2" fill="rgb(255,255,255)" fill-opacity="1"
-              stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="624" y="1643" fill="rgb(0,0,0)" font-style="normal"
-              font-weight="normal" font-size="17px">
-              <tspan>For ecosystem and more, check other tracks involving Python</tspan>
-            </text>
-            <g class="cursor-pointer" data-group-id="ext_link:roadmap.sh/devops">
-              <rect x="891.35" y="1660.35" width="226.3" height="41.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="934" y="1686.5" fill="rgb(0,0,0)"
-                font-style="normal" font-weight="normal" font-size="17px">
-                <tspan>DevOps Roadmap</tspan>
-              </text>
-            </g>
-            <g class="cursor-pointer" data-group-id="ext_link:roadmap.sh/backend">
-              <rect x="625.35" y="1660.35" width="249.3" height="41.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="676" y="1687" fill="rgb(0,0,0)" font-style="normal"
-                font-weight="normal" font-size="17px">
-                <tspan>Backend Roadmap</tspan>
-              </text>
-            </g>
+            <router-link to="/frameworks/django">
+              <g class="cursor-pointer" data-group-id="100-python-frameworks:synchronous:django">
+                <rect x="951.35" y="966.35" width="84.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="968" y="992" fill="rgb(0,0,0)" font-style="normal"
+                  font-weight="normal" font-size="16px">
+                  <tspan>Django</tspan>
+                </text>
+              </g>
+            </router-link>
+            <router-link to="/frameworks/flask">
+              <g class="cursor-pointer" data-group-id="101-python-frameworks:synchronous:flask">
+                <rect x="951.35" y="1012.35" width="85.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="975" y="1038" fill="rgb(0,0,0)" font-style="normal"
+                  font-weight="normal" font-size="16px">
+                  <tspan>Flask</tspan>
+                </text>
+              </g>
+            </router-link>
+            <router-link to="/frameworks/pyramid">
+              <g class="cursor-pointer" data-group-id="102-python-frameworks:synchronous:pyramid">
+                <rect x="951.35" y="1058.35" width="85.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="965" y="1084.5" fill="rgb(0,0,0)"
+                  font-style="normal" font-weight="normal" font-size="16px">
+                  <tspan>Pyramid</tspan>
+                </text>
+              </g>
+            </router-link>
+            <router-link to="/frameworks/asynchronous">
+              <g class="cursor-pointer" data-group-id="101-python-frameworks:asynchronous">
+                <rect x="1096.35" y="1212.35" width="153.3" height="40.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="1122" y="1239.5" fill="rgb(0,0,0)"
+                  font-style="normal" font-weight="normal" font-size="16px">
+                  <tspan>Asynchronous</tspan>
+                </text>
+              </g>
+            </router-link>
+            <router-link to="/frameworks/gevent">
+              <g class="cursor-pointer" data-group-id="100-python-frameworks:asynchronous:gevent">
+                <rect x="957.35" y="1212.35" width="88.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="977" y="1238" fill="rgb(0,0,0)" font-style="normal"
+                  font-weight="normal" font-size="16px">
+                  <tspan>gevent</tspan>
+                </text>
+              </g>
+            </router-link>
+            <router-link to="/frameworks/aiohttp">
+              <g class="cursor-pointer" data-group-id="101-python-frameworks:asynchronous:aiohttp">
+                <rect x="958.35" y="1258.35" width="86.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="977" y="1284" fill="rgb(0,0,0)" font-style="normal"
+                  font-weight="normal" font-size="16px">
+                  <tspan>aiohttp</tspan>
+                </text>
+              </g>
+            </router-link>
+            <router-link to="/frameworks/tornado">
+              <g class="cursor-pointer" data-group-id="102-python-frameworks:asynchronous:tornado">
+                <rect x="957.35" y="1304.35" width="88.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="972" y="1330" fill="rgb(0,0,0)" font-style="normal"
+                  font-weight="normal" font-size="16px">
+                  <tspan>Tornado</tspan>
+                </text>
+              </g>
+            </router-link>
+            <router-link to="/frameworks/sanic">
+              <g class="cursor-pointer" data-group-id="103-python-frameworks:asynchronous:sanic">
+                <rect x="957.35" y="1350.35" width="88.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="981" y="1376" fill="rgb(0,0,0)" font-style="normal"
+                  font-weight="normal" font-size="16px">
+                  <tspan>Sanic</tspan>
+                </text>
+              </g>
+            </router-link>
+            <router-link to="/frameworks/fastapi">
+              <g class="cursor-pointer" data-group-id="102-python-frameworks:fastapi">
+                <rect x="1200.35" y="1132.35" width="86.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="1216" y="1158.5" fill="rgb(0,0,0)"
+                  font-style="normal" font-weight="normal" font-size="16px">
+                  <tspan>FastAPI</tspan>
+                </text>
+              </g>
+            </router-link>
+            <router-link to="/frameworks/pyUnit">
+              <g class="cursor-pointer" data-group-id="100-python-testing:unittest-pyunit">
+                <rect x="494.35" y="1480.35" width="151.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="512" y="1506.5" fill="rgb(0,0,0)"
+                  font-style="normal" font-weight="normal" font-size="16px">
+                  <tspan>unittest / pyUnit</tspan>
+                </text>
+              </g>
+            </router-link>
+            <router-link to="/frameworks/pytest">
+              <g class="cursor-pointer" data-group-id="101-python-testing:pytest">
+                <rect x="494.35" y="1433.35" width="151.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="548" y="1459" fill="rgb(0,0,0)" font-style="normal"
+                  font-weight="normal" font-size="16px">
+                  <tspan>pytest</tspan>
+                </text>
+              </g>
+            </router-link>
+            <router-link to="/frameworks/doctest">
+              <g class="cursor-pointer" data-group-id="102-python-testing:doctest">
+                <rect x="494.35" y="1341.35" width="151.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="543" y="1367" fill="rgb(0,0,0)" font-style="normal"
+                  font-weight="normal" font-size="16px">
+                  <tspan>doctest</tspan>
+                </text>
+              </g>
+            </router-link>
+            <router-link to="/frameworks/nose">
+              <g class="cursor-pointer" data-group-id="102-python-testing:nose">
+                <rect x="494.35" y="1387.35" width="151.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="552" y="1412" fill="rgb(0,0,0)" font-style="normal"
+                  font-weight="normal" font-size="16px">
+                  <tspan>nose</tspan>
+                </text>
+              </g>
+            </router-link>
           </svg>
         </div>
       </div>
     </div>
   </div>
-  <button @click="open()">
-    asdfsdf
-  </button>
 </template>
 
 <script setup lang="ts">
