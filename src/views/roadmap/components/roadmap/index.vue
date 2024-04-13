@@ -128,27 +128,34 @@
                 <tspan>Learn the Basics</tspan>
               </text>
             </g>
-            <g class="cursor-pointer" data-group-id="100-python-basics:basic-syntax">
-              <rect x="360.35" y="423.35" width="219.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="423" y="449.5" fill="rgb(0,0,0)"
-                font-style="normal" font-weight="normal" font-size="16px">
-                <tspan>Basic Syntax</tspan>
-              </text>
-            </g>
-            <g class="cursor-pointer" data-group-id="101-python-basics:variables-and-datatypes">
-              <rect x="360.35" y="469.35" width="219.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="375" y="495.5" fill="rgb(0,0,0)"
-                font-style="normal" font-weight="normal" font-size="16px">
-                <tspan>Variables and Data Types</tspan>
-              </text>
-            </g>
-            <g class="cursor-pointer" data-group-id="105-python-basics:lists-tuples-sets-dictionaries">
-              <rect x="979.35" y="515.35" width="253.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="995" y="541" fill="rgb(0,0,0)" font-style="normal"
-                font-weight="normal" font-size="16px">
-                <tspan>Lists, Tuples, Sets, Dictionaries</tspan>
-              </text>
-            </g>
+            <router-link to="/basics/syntax">
+              <g class="cursor-pointer" data-group-id="100-python-basics:basic-syntax">
+                <rect x="360.35" y="423.35" width="219.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="423" y="449.5" fill="rgb(0,0,0)"
+                  font-style="normal" font-weight="normal" font-size="16px">
+                  <tspan>Basic Syntax</tspan>
+                </text>
+              </g>
+            </router-link>
+            <router-link to="/basics/variables">
+              <g class="cursor-pointer" data-group-id="101-python-basics:variables-and-datatypes">
+                <rect x="360.35" y="469.35" width="219.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="375" y="495.5" fill="rgb(0,0,0)"
+                  font-style="normal" font-weight="normal" font-size="16px">
+                  <tspan>Variables and Data Types</tspan>
+                </text>
+              </g>
+            </router-link>
+            <router-link to="/basics/lists">
+              <g class="cursor-pointer" data-group-id="105-python-basics:lists-tuples-sets-dictionaries">
+                <rect x="979.35" y="515.35" width="253.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="995" y="541" fill="rgb(0,0,0)" font-style="normal"
+                  font-weight="normal" font-size="16px">
+                  <tspan>Lists, Tuples, Sets, Dictionaries</tspan>
+                </text>
+              </g>
+            </router-link>
+          <router-link to="/basics/conditionals">
             <g class="cursor-pointer" data-group-id="102-python-basics:conditionals">
               <rect x="360.35" y="515.35" width="219.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
                 stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="424" y="541" fill="rgb(0,0,0)" font-style="normal"
@@ -156,6 +163,8 @@
                 <tspan>Conditionals</tspan>
               </text>
             </g>
+          </router-link>
+          <router-link to="/basics/type">
             <g class="cursor-pointer" data-group-id="103-python-basics:typecasting-exceptions">
               <rect x="979.35" y="422.35" width="251.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
                 stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="1015" y="448" fill="rgb(0,0,0)" font-style="normal"
@@ -163,6 +172,8 @@
                 <tspan>Type Casting, Exceptions</tspan>
               </text>
             </g>
+          </router-link>
+          <router-link to="/basics/functions">
             <g class="cursor-pointer" data-group-id="104-python-basics:functions">
               <rect x="979.35" y="469.35" width="253.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
                 stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="1006" y="495.5" fill="rgb(0,0,0)"
@@ -170,6 +181,7 @@
                 <tspan>Functions, Builtin Functions</tspan>
               </text>
             </g>
+          </router-link>
             <g class="select-none" data-group-id="101-data-structures-and-algorithms">
               <rect x="974.35" y="592.35" width="259.3" height="40.3" rx="2" fill="rgb(255,255,0)" fill-opacity="1"
                 stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="994" y="619.5" fill="rgb(0,0,0)"
@@ -177,48 +189,60 @@
                 <tspan>Datastructures and Algorithms</tspan>
               </text>
             </g>
-            <g class="cursor-pointer" data-group-id="100-data-structures-and-algorithms:arrays-linked-lists">
-              <rect x="1015.35" y="667.35" width="219.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="1041" y="693.5" fill="rgb(0,0,0)"
-                font-style="normal" font-weight="normal" font-size="16px">
-                <tspan>Arrays and Linked Lists</tspan>
-              </text>
-            </g>
-            <g class="cursor-pointer" data-group-id="101-data-structures-and-algorithms:heaps-stacks-queues">
-              <rect x="1015.35" y="712.35" width="219.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="1028" y="737.5" fill="rgb(0,0,0)"
-                font-style="normal" font-weight="normal" font-size="16px">
-                <tspan>Heaps, Stacks and Queues</tspan>
-              </text>
-            </g>
-            <g class="cursor-pointer" data-group-id="102-data-structures-and-algorithms:hash-tables">
-              <rect x="1016.35" y="758.35" width="219.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="1081" y="784" fill="rgb(0,0,0)" font-style="normal"
-                font-weight="normal" font-size="16px">
-                <tspan>Hash Tables</tspan>
-              </text>
-            </g>
-            <g class="cursor-pointer" data-group-id="103-data-structures-and-algorithms:binary-search-trees">
-              <rect x="1015.35" y="803.35" width="219.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="1052" y="829.5" fill="rgb(0,0,0)"
-                font-style="normal" font-weight="normal" font-size="16px">
-                <tspan>Binary Search Trees</tspan>
-              </text>
-            </g>
-            <g class="cursor-pointer" data-group-id="104-data-structures-and-algorithms:recursion">
-              <rect x="1015.35" y="849.35" width="219.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="1088" y="875" fill="rgb(0,0,0)" font-style="normal"
-                font-weight="normal" font-size="16px">
-                <tspan>Recursion</tspan>
-              </text>
-            </g>
-            <g class="cursor-pointer" data-group-id="105-data-structures-and-algorithms:sorting-algorithms">
-              <rect x="1015.35" y="895.35" width="219.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="1059" y="921.5" fill="rgb(0,0,0)"
-                font-style="normal" font-weight="normal" font-size="16px">
-                <tspan>Sorting Algorithms</tspan>
-              </text>
-            </g>
+            <router-link to="/algorithms/arrays">
+              <g class="cursor-pointer" data-group-id="100-data-structures-and-algorithms:arrays-linked-lists">
+                <rect x="1015.35" y="667.35" width="219.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="1041" y="693.5" fill="rgb(0,0,0)"
+                  font-style="normal" font-weight="normal" font-size="16px">
+                  <tspan>Arrays and Linked Lists</tspan>
+                </text>
+              </g>
+            </router-link>
+            <router-link to="/algorithms/heaps">
+              <g class="cursor-pointer" data-group-id="101-data-structures-and-algorithms:heaps-stacks-queues">
+                <rect x="1015.35" y="712.35" width="219.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="1028" y="737.5" fill="rgb(0,0,0)"
+                  font-style="normal" font-weight="normal" font-size="16px">
+                  <tspan>Heaps, Stacks and Queues</tspan>
+                </text>
+              </g>
+            </router-link>
+            <router-link to="/algorithms/hash-tables">
+              <g class="cursor-pointer" data-group-id="102-data-structures-and-algorithms:hash-tables">
+                <rect x="1016.35" y="758.35" width="219.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="1081" y="784" fill="rgb(0,0,0)" font-style="normal"
+                  font-weight="normal" font-size="16px">
+                  <tspan>Hash Tables</tspan>
+                </text>
+              </g>
+            </router-link>
+            <router-link to="/algorithms/binary-search">
+              <g class="cursor-pointer" data-group-id="103-data-structures-and-algorithms:binary-search-trees">
+                <rect x="1015.35" y="803.35" width="219.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="1052" y="829.5" fill="rgb(0,0,0)"
+                  font-style="normal" font-weight="normal" font-size="16px">
+                  <tspan>Binary Search Trees</tspan>
+                </text>
+              </g>
+            </router-link>
+            <router-link to="/algorithms/recursion">
+              <g class="cursor-pointer" data-group-id="104-data-structures-and-algorithms:recursion">
+                <rect x="1015.35" y="849.35" width="219.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="1088" y="875" fill="rgb(0,0,0)" font-style="normal"
+                  font-weight="normal" font-size="16px">
+                  <tspan>Recursion</tspan>
+                </text>
+              </g>
+            </router-link>
+            <router-link to="/algorithms/sorting">
+              <g class="cursor-pointer" data-group-id="105-data-structures-and-algorithms:sorting-algorithms">
+                <rect x="1015.35" y="895.35" width="219.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="1059" y="921.5" fill="rgb(0,0,0)"
+                  font-style="normal" font-weight="normal" font-size="16px">
+                  <tspan>Sorting Algorithms</tspan>
+                </text>
+              </g>
+            </router-link>
             <g class="select-none" data-group-id="102-python-advanced-topics">
               <rect x="643.35" y="711.35" width="308.3" height="40.3" rx="2" fill="rgb(255,255,0)" fill-opacity="1"
                 stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="737" y="738.5" fill="rgb(0,0,0)"
@@ -233,27 +257,33 @@
                 <tspan>Modules</tspan>
               </text>
             </g>
-            <g class="cursor-pointer" data-group-id="100-python-advanced-topics:modules:builtin-modules">
-              <rect x="614.35" y="846.35" width="87.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="635" y="872.5" fill="rgb(0,0,0)"
-                font-style="normal" font-weight="normal" font-size="16px">
-                <tspan>Builtin</tspan>
-              </text>
-            </g>
-            <g class="cursor-pointer" data-group-id="101-python-advanced-topics:modules:custom-modules">
-              <rect x="613.35" y="892.35" width="88.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="630" y="918" fill="rgb(0,0,0)" font-style="normal"
-                font-weight="normal" font-size="16px">
-                <tspan>Custom</tspan>
-              </text>
-            </g>
-            <g class="cursor-pointer" data-group-id="104-python-advanced-topics:iterators">
-              <rect x="597.35" y="604.35" width="116.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="625" y="630" fill="rgb(0,0,0)" font-style="normal"
-                font-weight="normal" font-size="16px">
-                <tspan>Iterators</tspan>
-              </text>
-            </g>
+            <router-link to="/topic/builtin">
+              <g class="cursor-pointer" data-group-id="100-python-advanced-topics:modules:builtin-modules">
+                <rect x="614.35" y="846.35" width="87.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="635" y="872.5" fill="rgb(0,0,0)"
+                  font-style="normal" font-weight="normal" font-size="16px">
+                  <tspan>Builtin</tspan>
+                </text>
+              </g>
+            </router-link>
+            <router-link to="/topic/custom">
+              <g class="cursor-pointer" data-group-id="101-python-advanced-topics:modules:custom-modules">
+                <rect x="613.35" y="892.35" width="88.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="630" y="918" fill="rgb(0,0,0)" font-style="normal"
+                  font-weight="normal" font-size="16px">
+                  <tspan>Custom</tspan>
+                </text>
+              </g>
+            </router-link>
+            <router-link to="/topic/iterators">
+              <g class="cursor-pointer" data-group-id="104-python-advanced-topics:iterators">
+                <rect x="597.35" y="604.35" width="116.3" height="39.3" rx="2" fill="rgb(255,229,153)" fill-opacity="1"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="625" y="630" fill="rgb(0,0,0)" font-style="normal"
+                  font-weight="normal" font-size="16px">
+                  <tspan>Iterators</tspan>
+                </text>
+              </g>
+            </router-link>
             <g class="select-none" data-group-id="106-python-frameworks">
               <rect x="782.35" y="1131.35" width="229.3" height="40.3" rx="2" fill="rgb(255,255,0)" fill-opacity="1"
                 stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="827" y="1158" fill="rgb(0,0,0)" font-style="normal"

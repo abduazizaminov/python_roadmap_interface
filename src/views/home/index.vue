@@ -20,25 +20,24 @@
                   пас аз 3 моҳи омӯзиш
               </div>
               <div class="mt-[60px] font-ibm mb-[32px] flex">
-                <div
-                  class="cursor-pointer border-solid mr-[10px] border-black border-[3px] px-[44px] py-[22px] text-[16px] leading-[155%] font-semibold">
-                  Записаться на курс
-                </div>
-                <div class="cursor-pointer bg-black px-[44px] text-white leading-[200%] py-[22px] text-[16px] font-semibold">
-                  Смотреть Roadmap
-                </div>
+                <router-link to="/roadmap">
+                  <div
+                    class="cursor-pointer border-solid mr-[10px] border-black border-[3px] px-[44px] py-[22px] text-[16px] leading-[155%] font-semibold">
+                    Python Roadmap
+                  </div>
+                </router-link>
               </div>
               <div class="flex mb-[10px] font-ibm text-[14px] text-center text-white">
-                <div class="bg-black cursor-pointer mr-[10px] col-span-6 px-[14px] py-[5px]">
-                  Кто такой Python-разработчик
+                <div @click="goToStat()" class="bg-black cursor-pointer mr-[10px] col-span-6 px-[14px] py-[5px]">
+                  Омор дар бораи python
                 </div>
-                <div class="bg-black cursor-pointer col-span-6 px-[14px] py-[5px]">
-                  Кому подойдёт курс
+                <div @click="goToInfo()" class="bg-black cursor-pointer col-span-6 px-[14px] py-[5px]">
+                  Ин курс барои кӣ мувофиқ аст?
                 </div>
               </div>
               <div class="flex font-ibm text-white text-[14px]">
-                <div class="bg-black cursor-pointer col-span-6 px-[14px] py-[5px]">
-                  Статистика о python
+                <div @click="goToPythonDevInfo()" class="bg-black cursor-pointer col-span-6 px-[14px] py-[5px]">
+                  Тахиягари python кист
                 </div>
               </div>
             </div>
@@ -51,7 +50,7 @@
       </div>
     </div>
     <div class="lg:max-w-7xl w-full ml-auto mr-auto">
-      <div class="lg:px-[64px] md:px-[32px] px-[24px] py-[40px]">
+      <div id="info" class="lg:px-[64px] md:px-[32px] px-[24px] py-[40px]">
         <h2 class="text-5xl mb-[27px] leading-[74px]">
           Дастури рақамии харитаи роҳи барномасозони Python метавонад муфид бошад ба...
         </h2>
@@ -156,7 +155,7 @@
           </div>
         </div>
       </div>
-      <div class="lg:px-16 md:px-8 px-6 py-10">
+      <div id="stat" class="lg:px-16 md:px-8 px-6 py-10">
         <div class="flex mb-[22px]">
           <h2 class="text-5xl leading-[55px]">
             <span class="text-customGreen">
@@ -218,30 +217,29 @@
           </div>
         </div>
       </div>
-      <div class="lg:px-16 md:px-8 px-6 py-10">
+      <div id="dev" class="lg:px-16 md:px-8 px-6 py-10">
         <h2 class="text-5xl leading-[58px]">
           <div class="text-customGreen">
-            Чем занимается
+            Таҳиягари Python
           </div>
-          Python-разработчик?
+          чӣ кор мекунад?
         </h2>
         <div class="flex items-center">
           <div class="text-xl mt-[50px] leading-[26px] pr-[100px]">
             <p class="mb-7">
-              <span class="font-bold">Python — универсальный язык</span>, который
-              применяется в разных областях: сайты, веб-
-              приложения, игры, анализ данных, автоматизация,
-              работа с устройствами.
+              <span class="font-bold">Python забони универсалӣ аст</span>, ки дар соҳаҳои гуногун истифода мешавад: 
+              сайтҳо, веб - барномаҳо, бозиҳо, таҳлили маълумот, 
+              автоматизатсия, кор бо дастгоҳҳо.
             </p>
             <p class="mb-7">
-              <span class="font-bold">На Python делают backend</span>, то есть внутреннюю
-              логику работы программы.
+              <span class="font-bold">Дар Python backend сохта мешавад</span>, 
+              яъне мантиқи дохилии барнома.
             </p>
             <p>
-              Представьте, что вы ввели в строку поиска
-              «смотреть сериалы в оригинале». Список ссылок,
-              которые вам выдал поисковик — это и есть
-              результат работы backend-программиста.
+              Тасаввур кунед, ки шумо ба сатри ҷустуҷӯ 
+              "сериалҳоро дар асл тамошо кунед"ворид кардаед. 
+              Рӯйхати истинодҳое, ки системаи ҷустуҷӯӣ ба шумо 
+              додааст — ин натиҷаи кори барномасози backend аст.
             </p>
           </div>
           <div class="mt-[-50px]">
@@ -254,32 +252,28 @@
       <div class="lg:px-16 md:px-8 px-6 py-10">
         <div class="mb-16">
           <h2 class="text-5xl leading-[58px] max-w-[661px] w-full">
-            Получите новую профессию Python-разработчика
+            Касби нави таҳиягари Python гиред
           </h2>
           <h5 class="text-xl leading-[27px] mt-[20px]">
-            С нуля при помощи Roadmap
+            Аз сифр Бо Roadmap
           </h5>
         </div>
         <div class="grid grid-cols-12 gap-[30px]">
           <div class="lg:col-span-4 md:col-span-6 col-span-12">
             <job-info-block>
-              Освойте программирование на Python
-              и научитесь решать задачи с помощью
-              алгоритмов
+              Барномасозии Python-ро азхуд кунед <br>
+              ва ҳалли мушкилотро бо<br>
+              алгоритмҳо
             </job-info-block>
           </div>
           <div class="lg:col-span-4 md:col-span-6 col-span-12">
             <job-info-block>
-              Сделайте несколько больших кейсов для
-              портфолио (сервис
-              с REST API) или несколько мелких
+              Якчанд парвандаҳои портфели калон (хидмат бо REST API) е якчанд парвандаҳои хурд созед
             </job-info-block>
           </div>
           <div class="lg:col-span-4 md:col-span-6 col-span-12">
             <job-info-block>
-              Ищите работу с Центром карьеры —
-              от составления резюме до репетиции
-              собеседований
+              Кор бо Маркази касбиро ҷустуҷӯ кунед - аз таҳияи резюме то репетицияи мусоҳиба
             </job-info-block>
           </div>
         </div>
@@ -290,11 +284,11 @@
         <div class="lg:px-[64px] md:px-[32px] px-[24px] py-[40px]">
           <div class="flex md:flex-row flex-col justify-between items-center">
             <h3 class="text-white text-center md:text-start md:mb-0 mb-5 md:mr-5 max-w-[450px] w-full font-medium text-3xl leading-[39px] ">
-              Получите профессию Python-разработчика с за 3 месяца
+              Дар бораи забони барномасозии Python дониш пайдо кунед
             </h3>
             <div
               class="bg-white cursor-pointer font-ibm font-semibold text-center py-[18px] max-w-[340px] w-full text-customGreen">
-              Записаться на курс
+              Python Roadmap
             </div>
           </div>
         </div>
@@ -305,6 +299,35 @@
 
 <script setup lang="ts">
 import { infoBlock, experienceTab, statBlock, cells, pythonIcon, jobInfoBlock } from './components'
+import { RouterLink } from 'vue-router';
+const goToStat = () :void => {
+  const stat = document.getElementById('stat')
+  
+  if (stat !== null) {
+    stat.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    })
+  }
+}
+const goToInfo = () :void => {
+  const info = document.getElementById('info')
+  if (info !== null) {
+    info.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    })
+  }
+}
+const goToPythonDevInfo = () :void => {
+  const dev = document.getElementById('dev')
+  if (dev !== null) {
+    dev.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    })
+  }
+}
 </script>
 
 <style>
