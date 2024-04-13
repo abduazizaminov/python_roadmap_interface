@@ -19,10 +19,43 @@ const router = createRouter({
           name: 'roadmap',
           component: () => import('@/views/roadmap/index.vue')
         },
+        
+        //Basics
+        
         {
           path: '/basics',
           name: 'basics',
           component: () => import('@/views/basics/index.vue')
+        },
+        {
+          path: '/basics/syntax',
+          name: 'syntax',
+          component: () => import('@/views/basics/pages/syntax.vue')
+        },
+        {
+          path: '/basics/functions',
+          name: 'functions',
+          component: () => import('@/views/basics/pages/functions.vue')
+        },
+        {
+          path: '/basics/conditionals',
+          name: 'conditionals',
+          component: () => import('@/views/basics/pages/conditionals.vue')
+        },
+        {
+          path: '/basics/lists',
+          name: 'lists',
+          component: () => import('@/views/basics/pages/lists.vue')
+        },
+        {
+          path: '/basics/type',
+          name: 'type',
+          component: () => import('@/views/basics/pages/type.vue')
+        },
+        {
+          path: '/basics/variables',
+          name: 'variables',
+          component: () => import('@/views/basics/pages/variables.vue')
         },
 
         //Algorithms
@@ -130,6 +163,21 @@ const router = createRouter({
           path: '/topic/regular',
           name: 'regular',
           component: () => import('@/views/topic/pages/regular.vue')
+        },
+        {
+          path: '/topic/builtin',
+          name: 'builtin',
+          component: () => import('@/views/topic/pages/builtin.vue')
+        },
+        {
+          path: '/topic/custom',
+          name: 'custom',
+          component: () => import('@/views/topic/pages/custom.vue')
+        },
+        {
+          path: '/topic/iterators',
+          name: 'iterators',
+          component: () => import('@/views/topic/pages/iterators.vue')
         },
         
         //Learn a Framework
