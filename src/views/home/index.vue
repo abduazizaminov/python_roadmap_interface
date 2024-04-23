@@ -95,7 +95,7 @@
           <div class="grid grid-cols-2 lg:gap-20 gap-14">
             <div class="border-customGreen border-[3px] lg:col-span-1 col-span-2 rounded-lg px-[33px] py-10">
               <p class="text-[#181818] text-3xl font-medium leading-9">
-                <span class="text-[#36b34a]">
+                <span class="text-customGreen">
                   Аз 10 корфармо 7 нафараш
                 </span>
                 одамони дорои таҷрибаро ба кор мегиранд

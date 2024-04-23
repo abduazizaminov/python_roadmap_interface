@@ -1,7 +1,8 @@
 <template>
   <div class="w-full select-none bg-[#ECEFF1]">
     <div class="lg:max-w-7xl w-full ml-auto mr-auto">
-    <ul class=" flex justify-start py-[37px] lg:px-[64px] md:px-[32px] px-[24px]">
+      <ul class=" flex justify-start items-center py-[27px] lg:px-[64px] md:px-[32px] px-6">
+      <img src="@/assets/images/logo.png" class="mr-6" alt="" srcset="">
       <router-link to="/">
         <li class="cursor-pointer duration-200 hover:text-customGreen font-medium leading-[155%] mr-[18px]">Асоси</li>
       </router-link>
