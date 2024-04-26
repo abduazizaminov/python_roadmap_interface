@@ -11,7 +11,7 @@ export default {
         ibm: ['"IBM Plex Mono", monospace']
       },
       colors: {
-        customGreen: '#35B34A'
+        customGreen: '#00a2e8'
       }
     }
   },

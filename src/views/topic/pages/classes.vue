@@ -144,49 +144,49 @@
         bike1 = Bike("Mountain Bike")
     </code></pre>
     <p>Дар ин ҷо, <code>"Mountain Bike"</code> ҳамчун аргументи <code>name</code> ба функсияи <code>__init__()</code> интиқол дода мешавад (ки конструктори синфи <code>Bike</code> аст) барои оғоз кардани атрибути <code>name</code>.</p>
-    <h2>Маводҳо барои мутоила:</h2>
+    <h3>Маводҳо барои мутоила:</h3>
     <ul>
         <li><p>"Объектно-ориентированное программирование на языке Python" / Задорожный Сергей Сергеевич, Фадеев Егор Павлович <a href="https://cmp.phys.msu.ru/sites/default/files/%D0%9E%D0%9E%D0%9F_%D0%BD%D0%B0_Python_%D0%A3%D1%87%D0%B5%D0%B1%D0%BD%D0%BE%D0%B5%20%D0%BF%D0%BE%D1%81%D0%BE%D0%B1%D0%B8%D0%B5_var7.pdf?ysclid=luc4x7pshd442875201">(скачать PDF)</a></p></li>
         <li><p>"Python. Подробный справочник" / Дэвид Бизли <a href="https://k0d.cc/storage/books/PYTHON/python_podrobnyi_spravochnik_4-e_izd.pdf">(скачать PDF)</a></p></li>
         <li><p>"Простой Python. Современный стиль программирования" / Любанович Бил <a href="https://pydarslik.pythonanywhere.com/media/resource_file/%D0%91%D0%B8%D0%BB%D0%BB_%D0%9B%D1%8E%D0%B1%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87_%D0%9F%D1%80%D0%BE%D1%81%D1%82%D0%BE%D0%B9_Python_%D0%91%D0%B5%D1%81%D1%82%D1%81%D0%B5%D0%BB%D0%BB%D0%B5%D1%80%D1%8B.pdf">(скачать PDF)</a></p></li>
     </ul>
-    <h2>Интернет – сомонаҳо бо маводҳо барои мутоила:</h2>
+    <h3>Интернет – сомонаҳо бо маводҳо барои мутоила:</h3>
     <ul>
         <li><p><a href="https://docs.python.org/3/tutorial/classes.html">Classes in Python</a></p></li>
         <li><p><a href="https://www.geeksforgeeks.org/python-classes-and-objects/">Python Classes and Objects</a></p></li>
         <li><p><a href="https://www.youtube.com/watch?v=ZDa-Z5JzLYM&list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc">Python OOP Tutorial</a></p></li>
     </ul>
-    <h2>Курсҳои омӯзишӣ бо воситаи Интернет дар Coursera, EdX, Khan Academy, Udemy:</h2>
+    <h3>Курсҳои омӯзишӣ бо воситаи Интернет дар Coursera, EdX, Khan Academy, Udemy:</h3>
     <ul>
         <li><p><a href="https://www.coursera.org/learn/python-classes-inheritance">Классы и наследование в Python</a></p></li>
         <li><p><a href="https://www.udemy.com/course/object-oriented-programming-with-python/?couponCode=LETSLEARNNOW">Object Oriented Programming with Python 3</a></p></li>
         <li><p><a href="https://translated.turbopages.org/proxy_u/en-ru.ru.b4f480e9-65fabce2-c4c6f979-74722d776562/https/www.udemy.com/course/all-about-class-in-python-and-graphs/">Классы и объекты Python</a></p></li>
     </ul>
-    <h2>Дигар курсҳои омӯзишӣ бо воситаи Интернет:</h2>
+    <h3>Дигар курсҳои омӯзишӣ бо воситаи Интернет:</h3>
     <ul>
         <li><p><a href="https://matesanz.github.io/python-machine-learning-course/%F0%9F%93%9A-Tutorials/%F0%9F%90%8D-Python-Basics/decorators/">Python for Machine Learning Course</a></p></li>
         <li><p><a href="https://egoroffartem.pythonanywhere.com/course/oop-python/klassy-obekty-ekzemplyary-klassov">Классы, объекты, экземпляры классов</a></p></li>
         <li><p><a href="https://deepskills.ru/courses/object-oriented-programming-python/?ysclid=ltzo2t4cqb275692306">ООП в Python</a></p></li>
     </ul>
-    <h2>Форумҳо ё дигар шаклҳои имконпазири муҳокимаи проблемаҳо дар Интернет:</h2>
+    <h3>Форумҳо ё дигар шаклҳои имконпазири муҳокимаи проблемаҳо дар Интернет:</h3>
     <ul>
         <li><p><a href="https://www.reddit.com/r/Python/?rdt=60471">Reddit</a></p></li>
         <li><p><a href="https://www.python.org/community/forums/">Python.org</a></p></li>
         <li><p><a href="https://www.cyberforum.ru/python/?ysclid=ltwhrrore5900284198">Сyberforum</a></p></li>
     </ul>
-    <h2>Муҳити коркарди нармафзор:</h2>
+    <h3>Муҳити коркарди нармафзор:</h3>
     <ul>
         <li><p><a href="https://pycharm-community.en.uptodown.com/windows">PyCharm</a></p></li>
         <li><p><a href="https://code.visualstudio.com/">Visual Studio Code</a></p></li>
         <li><p><a href="https://jupyter.org/">Jupyter</a></p></li>
     </ul>
-    <h2>Онлайн муҳити санҷиши коди барномавӣ:</h2>
+    <h3>Онлайн муҳити санҷиши коди барномавӣ:</h3>
     <ul>
         <li><p><a href="https://www.online-ide.com/online_python_compiler#google_vignette">Online Python Compiler - OnlineIDE</a></p></li>
         <li><p><a href="https://bio-python.netlify.app/">Online Python - IDE, Editor, Compiler, Interpreter</a></p></li>
         <li><p><a href="https://pythoncompiler.com/">Python Compiler</a></p></li>
     </ul>
-    <h2>Библиотека ва фреймворкҳои истифодашуда:</h2>
+    <h3>Библиотека ва фреймворкҳои истифодашуда:</h3>
     <ul>
         <li><p><a href="https://docs.python.org/3/library/index.html">The Python Standard Library</a></p></li>
     </ul>

@@ -6,11 +6,12 @@
       class="fixed cursor-pointer shadow-xl rounded-full bottom-5 right-5">
       <img src="@/assets/images/arrow.svg" alt="">
     </div>
+    <Footer></Footer>
   </div>
 </template>
 
 <script setup lang="ts">
-import { Header } from '@/components'
+import { Header, Footer } from '@/components'
 import { RouterView } from 'vue-router'
 import { ref, onMounted, onBeforeUnmount } from 'vue';
 
