@@ -4,10 +4,10 @@
       <ul class=" flex justify-start items-center py-[27px] lg:px-[64px] md:px-[32px] px-6">
       <img src="@/assets/images/logo.png" class="mr-6" alt="" srcset="">
       <router-link to="/">
-        <li class="cursor-pointer duration-200 hover:text-customGreen font-medium leading-[155%] mr-[18px]">Асоси</li>
+        <li class="cursor-pointer duration-200 hover:text-customGreen font-medium leading-[155%] mr-[18px]">Саифаи асоси</li>
       </router-link>
       <router-link to="/roadmap">
-        <li class="cursor-pointer duration-200 hover:text-customGreen font-medium leading-[155%] mx-[18px]">Python Roadmap</li>
+        <li class="cursor-pointer duration-200 hover:text-customGreen font-medium leading-[155%] mx-[18px]">Саифаи Python Roadmap</li>
       </router-link>
       <!-- <router-link to="/basics">
         <li class="cursor-pointer duration-200 hover:text-customGreen font-medium leading-[155%] mx-[18px]">Learn the Basics</li>
