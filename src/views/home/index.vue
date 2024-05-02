@@ -1,6 +1,6 @@
 <template>
   <div class=" overflow-x-hidden">
-    <div class="bg-customGreen">
+    <div class="bg-customGreen mb-16">
       <div class="lg:max-w-7xl w-full ml-auto mr-auto">
         <div class="lg:px-[64px] md:px-[32px] px-[24px] py-[40px]">
           <div class="py-[55px] flex items-center justify-between">
@@ -49,7 +49,7 @@
         </div>
       </div>
     </div>
-    <div class="lg:max-w-7xl w-full ml-auto mr-auto">
+    <div class="lg:max-w-7xl mb-16 w-full ml-auto mr-auto">
       <div id="info" class="lg:px-[64px] md:px-[32px] px-[24px] py-[40px]">
         <h2 class="text-5xl mb-[27px] leading-[74px]">
           Дастури рақамии харитаи роҳи барномасозони Python метавонад муфид бошад ба...
@@ -88,7 +88,7 @@
         </div>
       </div>
       <div class="lg:px-16 md:px-8 px-6 py-10">
-        <div class="mb-10">
+        <div class="mb-10 mt-16">
           <h2 class="text-[46px] mb-[50px] font-medium leading-[51px]">
             Шумо таҷрибаи воқеӣ хоҳед гирифт
           </h2>
@@ -115,7 +115,7 @@
             </div>
           </div>
         </div>
-        <div>
+        <div class="mb-16">
           <h3 class="text-3xl mb-[30px] font-medium leading-9 text-[#181818]">
             Таҷрибаи воқеӣ ба шумо медиҳад:
           </h3>
@@ -155,7 +155,7 @@
           </div>
         </div>
       </div>
-      <div id="stat" class="lg:px-16 md:px-8 px-6 py-10">
+      <div id="stat" class="lg:px-16 md:px-8 px-6 mb-16 py-10">
         <div class="flex mb-[22px]">
           <h2 class="text-5xl leading-[55px]">
             <span class="text-customGreen">
@@ -279,7 +279,7 @@
         </div>
       </div>
     </div>
-    <div class="bg-customGreen">
+    <div class="bg-customGreen ">
       <div class="lg:max-w-7xl w-full ml-auto mr-auto">
         <div class="lg:px-[64px] md:px-[32px] px-[24px] py-[40px]">
           <div class="flex md:flex-row flex-col justify-between items-center">
