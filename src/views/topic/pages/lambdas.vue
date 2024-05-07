@@ -4,6 +4,7 @@
       <div class="py-[55px] flex items-center justify-between">
         <div>
           <h1>Lambdas - Лямбдаҳо</h1>
+          <h5>Таҳиягар: Қосимова С.Д.</h5>
     <p>Функсияи ламбда (ё "функсияи анонимӣ") - намуди махсуси функсия бе ном аст. Масалан:</p>
     <pre><code>
         lambda : print('Hello, World!')

@@ -4,8 +4,7 @@
       <div class="py-[55px] flex items-center justify-between">
         <div>
           <h1>Conditionals - Шартҳо</h1>
-
-
+          <h5>Таҳиягар: Қодиров Н.Н.</h5>
           <h3>Асосҳои ифодаи шартӣ</h3>
 
 
