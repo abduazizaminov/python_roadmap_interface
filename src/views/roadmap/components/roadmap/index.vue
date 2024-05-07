@@ -115,8 +115,8 @@
               stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path>
             <path d="M1010 487Q930.8834820036842 491.9214395542532 867 489" fill="none" stroke="rgb(153,0,255)"
               stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 12"></path><text
-              x="721" y="396.5" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="28px">
-              <tspan>Python</tspan>
+              x="570" y="396.5" fill="rgb(0,0,0)" font-style="normal" font-weight="normal" font-size="28px">
+              <tspan>Python Programmer Roadmap</tspan>
             </text>
             <path d="M764 419.75719863176073Q764.3366734589504 445.19348262822604 764 475" fill="none"
               stroke="rgb(153,0,255)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"
@@ -296,13 +296,6 @@
                 stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="780" y="1495.5" fill="rgb(0,0,0)"
                 font-style="normal" font-weight="normal" font-size="16px">
                 <tspan>Testing your Apps</tspan>
-              </text>
-            </g>
-            <g class="select-none" data-group-id="ext_link:roadmap.sh/backend">
-              <rect x="619.35" y="250.35" width="371.3" height="47.3" rx="2" fill="rgb(65,53,214)" fill-opacity="1"
-                stroke="rgb(65,53,214)" stroke-width="2.7"></rect><text x="645" y="280" fill="rgb(255,255,255)"
-                font-style="normal" font-weight="normal" font-size="17px">
-                <tspan>Backend roadmap till Language Selection</tspan>
               </text>
             </g>
             <path d="M444 812.5Q444 770.1923076923076 444 735.5" fill="none" stroke="rgb(153,0,255)" stroke-width="4"

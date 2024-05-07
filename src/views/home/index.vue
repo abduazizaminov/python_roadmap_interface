@@ -1,6 +1,6 @@
 <template>
   <div class=" overflow-x-hidden">
-    <div class="bg-customGreen">
+    <div class="bg-customGreen mb-16">
       <div class="lg:max-w-7xl w-full ml-auto mr-auto">
         <div class="lg:px-[64px] md:px-[32px] px-[24px] py-[40px]">
           <div class="py-[55px] flex items-center justify-between">
@@ -11,13 +11,13 @@
                 </h2>
                 <h1 class="text-[86px] font-medium leading-[86px]">
                   Python - <br>
-                  таҳиякунанда
+                  таҳиягар
                 </h1>
               </div>
               <div class="mt-[42px] text-[20px]">
-                <span class="font-bold">Python-ро аз сифр омӯзед</span> ва аз нав оғоз кунед <br>
-                  мансаб аз вазифаи таҳиягари хурд аллакай <br>
-                  пас аз 3 моҳи омӯзиш
+                <span class="font-bold">Python-ро аз сифр омӯзед</span> ва ё аз нав оғоз кунед <br>
+                Шумо соҳиби вазифаи кории “Таҳиягари хурд (ҷавон)” (Junior Developer)
+                аллакай пас аз 3 моҳи омӯзиш
               </div>
               <div class="mt-[60px] font-ibm mb-[32px] flex">
                 <router-link to="/roadmap">
@@ -29,15 +29,15 @@
               </div>
               <div class="flex mb-[10px] font-ibm text-[14px] text-center text-white">
                 <div @click="goToStat()" class="bg-black cursor-pointer mr-[10px] col-span-6 px-[14px] py-[5px]">
-                  Омор дар бораи python
+                  Омор дар бораи Python
                 </div>
                 <div @click="goToInfo()" class="bg-black cursor-pointer col-span-6 px-[14px] py-[5px]">
-                  Ин курс барои кӣ мувофиқ аст?
+                  Ин роҳнамо барои кӣ мувофиқ аст?
                 </div>
               </div>
               <div class="flex font-ibm text-white text-[14px]">
                 <div @click="goToPythonDevInfo()" class="bg-black cursor-pointer col-span-6 px-[14px] py-[5px]">
-                  Тахиягари python кист
+                  Python - таҳиягар кист
                 </div>
               </div>
             </div>
@@ -49,10 +49,10 @@
         </div>
       </div>
     </div>
-    <div class="lg:max-w-7xl w-full ml-auto mr-auto">
+    <div class="lg:max-w-7xl mb-16 w-full ml-auto mr-auto">
       <div id="info" class="lg:px-[64px] md:px-[32px] px-[24px] py-[40px]">
         <h2 class="text-5xl mb-[27px] leading-[74px]">
-          Дастури рақамии харитаи роҳи барномасозони Python метавонад муфид бошад ба...
+          Раҳнамои рақамии “Python Programmer Roadmap” метавонад муфид бошад ба...
         </h2>
         <div class="grid lg:grid-cols-12 md:grid-cols-8 grid-cols-4 gap-[40px]">
           <div class="col-span-4">
@@ -71,7 +71,7 @@
                 Донишҷӯён
               </template>
               <div>
-                Кӯмак мекунад, ки дониши худро ташкил кунанд, омӯзиши забонро авлавият диҳанд ва вақти худро самаранок истифода баранд, то дар барномасозии Python муваффақ шаванд
+                Кӯмак мекунад, ки дониши худро ташаккул ва аниқ кунанд, ба омӯзиши забон такон диҳанд ва вақти худро самаранок истифода баранд, то дар Python барномасози муваффақ шаванд
               </div>
             </info-block>
           </div>
@@ -81,14 +81,14 @@
                 Барномасозон
               </template>
               <div>
-                Ба барномасозон дар сохтори донишҳои худ, муайян кардани самтҳои омӯзиши амиқ ва рушди малакаҳои Python барои ноил шудан ба сатҳи баланди салоҳият ва касбӣ дар кори худ кӯмак хоҳад кард
+                Ба барномасозон барои ноил шудан ба сатҳи баландтари салоҳияти касбӣ дар кори худ кӯмак хоҳад кард
               </div>
             </info-block>
           </div>
         </div>
       </div>
       <div class="lg:px-16 md:px-8 px-6 py-10">
-        <div class="mb-10">
+        <div class="mb-10 mt-16">
           <h2 class="text-[46px] mb-[50px] font-medium leading-[51px]">
             Шумо таҷрибаи воқеӣ хоҳед гирифт
           </h2>
@@ -106,18 +106,16 @@
                 Чаро амалия муҳим аст?
               </h5>
               <p>
-                Амалия ба рушди эҷодкорӣ ва қобилияти ҳалли мушкилот мусоидат мекунад.
-                Ҳангоми кор дар лоиҳаҳо, донишҷӯен бо монеаҳо ва хатогиҳои гуногун дучор меоянд, ки таҳлил ва
-                ҷустуҷӯи ҳалли оптималӣ.
-                Чунин таҷриба ба ташаккули қобилияти фикрронии мантиқӣ ва таҳлилӣ кӯмак мекунад ва инчунин малакаҳои ҷустуҷӯро такмил медиҳад
-                маълумот ва худомӯзӣ.
+                Амалия ба ташаккули салоҳияти эҷодкорӣ (созандагӣ) ва қобилияти ҳалли проблемаҳо (мушкилот) мусоидат мекунад.
+                 Ҳангоми кор дар лоиҳаҳо, донишҷӯен бо монеаҳо ва хатогиҳои гуногун дучор меоянд, ки таҳлил ва ҷустуҷӯи ҳалли оптималии онҳо салоҳияти тахассусиро баланд мекунад.
+                  Чунин таҷриба ба ташаккули қобилияти фикрронии мантиқӣ ва таҳлилӣ кӯмак мекунад ва инчунин малакаҳои ҷустуҷӯи иттилоот ва худомӯзиро такмил медиҳад.
               </p>
             </div>
           </div>
         </div>
-        <div>
+        <div class="mb-16">
           <h3 class="text-3xl mb-[30px] font-medium leading-9 text-[#181818]">
-            Таҷрибаи воқеӣ ба шумо медиҳад:
+            Таҷрибаи воқеиро ба шумо медиҳанд:
           </h3>
           <div class="grid grid-cols-4 gap-x-24 gap-y-12">
             <experience-tab>
@@ -155,13 +153,13 @@
           </div>
         </div>
       </div>
-      <div id="stat" class="lg:px-16 md:px-8 px-6 py-10">
+      <div id="stat" class="lg:px-16 md:px-8 px-6 mb-16 py-10">
         <div class="flex mb-[22px]">
           <h2 class="text-5xl leading-[55px]">
             <span class="text-customGreen">
               Python
             </span>
-            беҳтарин забони барномасозӣ барои шурӯъкунандагон аст
+            беҳтарин забони барномасозӣ барои навомӯзон мебошад
           </h2>
           <div class="mb-3">
             <cells></cells>
@@ -179,7 +177,7 @@
                 дар рейтинги маъруфияти забонҳои барномасозӣ
               </template>
               <template #source>
-                Мувофиқи маълумот GitHub
+                Мувофиқи маълумот GitHub (Ноябри соли 2023)
               </template>
             </stat-block>
           </div>
@@ -195,7 +193,7 @@
                 ҷойҳои холии таҳиягарони Python дар портали ҷустуҷӯи кор
               </template>
               <template #source>
-                Мувофиқи маълумот Hh.ru
+                Мувофиқи маълумот Hh.ru (Марти соли 2024)
               </template>
             </stat-block>
           </div>
@@ -211,7 +209,7 @@
                 музди миёнаи таҳиягарон ҳар сол мунтазам меафзояд
               </template>
               <template #source>
-                Мувофиқи маълумоти Habr
+                Мувофиқи маълумоти Habr (Марти соли 2024)
               </template>
             </stat-block>
           </div>
@@ -220,20 +218,20 @@
       <div id="dev" class="lg:px-16 md:px-8 px-6 py-10">
         <h2 class="text-5xl leading-[58px]">
           <div class="text-customGreen">
-            Таҳиягари Python
+            Python - таҳиягар
           </div>
           чӣ кор мекунад?
         </h2>
         <div class="flex items-center">
           <div class="text-xl mt-[50px] leading-[26px] pr-[100px]">
             <p class="mb-7">
-              <span class="font-bold">Python забони универсалӣ аст</span>, ки дар соҳаҳои гуногун истифода мешавад: 
-              сайтҳо, веб - барномаҳо, бозиҳо, таҳлили маълумот, 
-              автоматизатсия, кор бо дастгоҳҳо.
+              <span class="font-bold">Python забони универсалӣ аст</span>, ки дар соҳаҳои гуногун истифода мешавад:
+              сохтани сомонаҳо ва Web – замимаҳо, бозиҳои компютерӣ, таҳлили иттилоот, автоматизатсия,
+              кор бо азорҳои техникӣ ва дастгоҳҳо.
             </p>
             <p class="mb-7">
-              <span class="font-bold">Дар Python backend сохта мешавад</span>, 
-              яъне мантиқи дохилии барнома.
+              <span class="font-bold">Дар Python Backend – и Web – замима сохта мешавад</span>, 
+              ки кодҳои барномаҳои серверӣ буда, мантиқи коркунии Web – замимаро муайян мекунад
             </p>
             <p>
               Тасаввур кунед, ки шумо ба сатри ҷустуҷӯ 
@@ -252,18 +250,20 @@
       <div class="lg:px-16 md:px-8 px-6 py-10">
         <div class="mb-16">
           <h2 class="text-5xl leading-[58px] max-w-[661px] w-full">
-            Касби нави таҳиягари Python гиред
+            Касби нав
+            Python – таҳиягарро
+            соҳиб шавед
           </h2>
           <h5 class="text-xl leading-[27px] mt-[20px]">
-            Аз сифр Бо Roadmap
+            Аз сифр бо роҳнамо
           </h5>
         </div>
         <div class="grid grid-cols-12 gap-[30px]">
           <div class="lg:col-span-4 md:col-span-6 col-span-12">
             <job-info-block>
-              Барномасозии Python-ро азхуд кунед <br>
-              ва ҳалли мушкилотро бо<br>
-              алгоритмҳо
+              Барномасозиро дар Python азхуд кунед <br>
+              ва мушкилотро дар истифодаи<br>
+              алгоритмҳо бартараф намоед
             </job-info-block>
           </div>
           <div class="lg:col-span-4 md:col-span-6 col-span-12">
@@ -279,16 +279,16 @@
         </div>
       </div>
     </div>
-    <div class="bg-customGreen">
+    <div class="bg-customGreen ">
       <div class="lg:max-w-7xl w-full ml-auto mr-auto">
         <div class="lg:px-[64px] md:px-[32px] px-[24px] py-[40px]">
           <div class="flex md:flex-row flex-col justify-between items-center">
             <h3 class="text-white text-center md:text-start md:mb-0 mb-5 md:mr-5 max-w-[450px] w-full font-medium text-3xl leading-[39px] ">
-              Дар бораи забони барномасозии Python дониш пайдо кунед
+              Омӯхтани забони барномасозии Python - ро  оғоз ё давом диҳед
             </h3>
             <div
               class="bg-white cursor-pointer font-ibm font-semibold text-center py-[18px] max-w-[340px] w-full text-customGreen">
-              Python Roadmap
+              Python Programmer Roadmap
             </div>
           </div>
         </div>

@@ -4,6 +4,7 @@
       <div class="py-[55px] flex items-center justify-between">
         <div>
           <h1>Variables and Data Types - Тағйирёбандаҳо ва намудҳои маълумот</h1>
+          <h5>Таҳиягар: Қодиров Н.Н.</h5>
 <h3>Тағйирёбандаҳо</h3>
 
 

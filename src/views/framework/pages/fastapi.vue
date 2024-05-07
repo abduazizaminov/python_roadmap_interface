@@ -4,6 +4,7 @@
       <div class="py-[55px] flex items-center justify-between">
         <div>
           <h1>FastAPI</h1>
+          <h5>Таҳиягар: Аминов А.Р.</h5>
         <p>FastAPI як чаҳорчӯбаи веб барои эҷоди APIҳо дар Python навишта шудааст. Яке аз тезтарин ва маъмултарин чаҳорчӯбаҳои веб, ки бо Python навишта шудааст.</p>
         <h3>Насб кардани FastAPI</h3>
         <p>Қадами аввал насб кардани FastAPI мебошад.
