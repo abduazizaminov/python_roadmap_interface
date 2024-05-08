@@ -15,6 +15,16 @@ const router = createRouter({
           component: () => import('../views/home/index.vue')
         },
         {
+          path: '/developer',
+          name: 'developer',
+          component: () => import('../views/python-developer/index.vue')
+        },
+        {
+          path: '/roadmap-info',
+          name: 'roadmap-info',
+          component: () => import('../views/roadmap-info/index.vue')
+        },
+        {
           path: '/roadmap',
           name: 'roadmap',
           component: () => import('@/views/roadmap/index.vue')
@@ -261,5 +271,4 @@ const router = createRouter({
     }
   ]
 })
-
 export default router
