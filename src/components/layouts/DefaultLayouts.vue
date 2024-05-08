@@ -31,5 +31,4 @@ const changeButtonCondition = (): any => {
 const scrollToTop = (): any => {
   window.scrollTo({ top: 0, behavior: 'smooth' })
 }
-
 </script>
