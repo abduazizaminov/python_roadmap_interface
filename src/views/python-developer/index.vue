@@ -32,7 +32,7 @@
                   Омор дар бораи Python
                 </div>
                 <div @click="goToInfo()" class="bg-black rounded-[10px] cursor-pointer col-span-6 px-[14px] py-[5px]">
-                  Ин роҳнамо барои кӣ мувофиқ аст?
+                  Ин харитаи роҳ барои кӣ мувофиқ аст?
                 </div>
               </div>
               <div class="flex font-ibm text-white text-[14px]">
@@ -255,7 +255,7 @@
             соҳиб шавед
           </h2>
           <h5 class="text-xl leading-[27px] mt-[20px]">
-            Аз сифр бо роҳнамо
+            Аз сифр бо харитаи роҳ
           </h5>
         </div>
         <div class="grid grid-cols-12 gap-[30px]">

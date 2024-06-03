@@ -119,140 +119,140 @@
             <path d="M764 419.75719863176073Q764.3366734589504 445.19348262822604 764 475" fill="none"
               stroke="rgb(73,77,78)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"
               stroke-dasharray="undefined"></path>
-            <g v-tippy="{ content: 'Омӯзиши асосҳо' }" class="select-none" data-group-id="100-python-basics">
+            <g v-tippy="{ content: 'Learn the Basics' }" class="select-none" data-group-id="100-python-basics">
               <rect x="645.35" y="468.35" width="259.3" height="40.3" rx="2" fill="rgb(55, 118, 171)" fill-opacity="1"
                 stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="713" y="495.5" fill="rgb(0,0,0)"
                 font-style="normal" font-weight="normal" font-size="16px">
-                <tspan style="fill: white;">Learn the Basics</tspan>
+                <tspan style="fill: white;"> Омӯзиши асосҳо</tspan>
               </text>
             </g>
-            <router-link v-tippy="{ content: 'Синтаксиси асосӣ' }" to="/basics/syntax">
+            <router-link v-tippy="{ content: 'Basic Syntax' }" to="/basics/syntax">
               <g class="cursor-pointer" data-group-id="100-python-basics:basic-syntax">
                 <rect x="360.35" y="423.35" width="219.3" height="39.3" rx="2" fill="rgb(255, 212, 59)" fill-opacity="1"
-                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="423" y="449.5" fill="rgb(0,0,0)"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="403" y="449.5" fill="rgb(0,0,0)"
                   font-style="normal" font-weight="normal" font-size="16px">
-                  <tspan>Basic Syntax</tspan>
+                  <tspan> Синтаксиси асосӣ</tspan>
                 </text>
               </g>
             </router-link>
-            <router-link v-tippy="{ content: 'Тағйирёбандаҳо ва намудҳои маълумот' }" to="/basics/variables">
+            <router-link v-tippy="{ content: 'Variables and Data Types' }" to="/basics/variables">
               <g class="cursor-pointer" data-group-id="101-python-basics:variables-and-datatypes">
                 <rect x="360.35" y="469.35" width="219.3" height="39.3" rx="2" fill="rgb(255, 212, 59)" fill-opacity="1"
-                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="375" y="495.5" fill="rgb(0,0,0)"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="407" y="495.5" fill="rgb(0,0,0)"
                   font-style="normal" font-weight="normal" font-size="16px">
-                  <tspan>Variables and Data Types</tspan>
+                  <tspan> Тағйирёбандаҳо</tspan>
                 </text>
               </g>
             </router-link>
-            <router-link v-tippy="{ content: 'Рӯйхатҳо, феҳристҳо, маҷмӯаҳо, луғатҳо' }" to="/basics/lists">
+            <router-link v-tippy="{ content: 'Lists, Tuples, Sets, Dictionaries' }" to="/basics/lists">
               <g class="cursor-pointer" data-group-id="105-python-basics:lists-tuples-sets-dictionaries">
                 <rect x="979.35" y="515.35" width="253.3" height="39.3" rx="2" fill="rgb(255, 212, 59)" fill-opacity="1"
-                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="995" y="541" fill="rgb(0,0,0)" font-style="normal"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="986" y="541" fill="rgb(0,0,0)" font-style="normal"
                   font-weight="normal" font-size="16px">
-                  <tspan>Lists, Tuples, Sets, Dictionaries</tspan>
+                  <tspan> Рӯйхатҳо, феҳристҳо, маҷмӯаҳо</tspan>
                 </text>
               </g>
             </router-link>
-          <router-link v-tippy="{ content: 'Шартҳо' }" to="/basics/conditionals">
+          <router-link v-tippy="{ content: 'Conditionals' }" to="/basics/conditionals">
             <g class="cursor-pointer" data-group-id="102-python-basics:conditionals">
               <rect x="360.35" y="515.35" width="219.3" height="39.3" rx="2" fill="rgb(255, 212, 59)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="424" y="541" fill="rgb(0,0,0)" font-style="normal"
+                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="444" y="541" fill="rgb(0,0,0)" font-style="normal"
                 font-weight="normal" font-size="16px">
-                <tspan>Conditionals</tspan>
+                <tspan> Шартҳо</tspan>
               </text>
             </g>
           </router-link>
-          <router-link v-tippy="{ content: 'Навъи хароҷот, Истисноҳо' }" to="/basics/type">
+          <router-link v-tippy="{ content: 'Type Casting, Exceptions' }" to="/basics/type">
             <g class="cursor-pointer" data-group-id="103-python-basics:typecasting-exceptions">
               <rect x="979.35" y="422.35" width="251.3" height="39.3" rx="2" fill="rgb(255, 212, 59)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="1015" y="448" fill="rgb(0,0,0)" font-style="normal"
+                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="1000" y="448" fill="rgb(0,0,0)" font-style="normal"
                 font-weight="normal" font-size="16px">
-                <tspan>Type Casting, Exceptions</tspan>
+                <tspan> Навъи хароҷот, Истисноҳо</tspan>
               </text>
             </g>
           </router-link>
-          <router-link v-tippy="{ content: 'Функсияҳо, Функсияҳои сохташуда' }" to="/basics/functions">
+          <router-link v-tippy="{ content: 'Functions, Builtin Functions' }" to="/basics/functions">
             <g class="cursor-pointer" data-group-id="104-python-basics:functions">
               <rect x="979.35" y="469.35" width="253.3" height="39.3" rx="2" fill="rgb(255, 212, 59)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="1006" y="495.5" fill="rgb(0,0,0)"
+                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="1060" y="495.5" fill="rgb(0,0,0)"
                 font-style="normal" font-weight="normal" font-size="16px">
-                <tspan>Functions, Builtin Functions</tspan>
+                <tspan> Функсияҳо</tspan>
               </text>
             </g>
           </router-link>
-            <g v-tippy="{ content: 'Сохтори додаҳо ва алгоритм' }" class="select-none" data-group-id="101-data-structures-and-algorithms">
+            <g v-tippy="{ content: 'Datastructures and Algorithms' }" class="select-none" data-group-id="101-data-structures-and-algorithms">
               <rect x="974.35" y="592.35" width="259.3" height="40.3" rx="2" fill="rgb(55, 118, 171)" fill-opacity="1"
                 stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="994" y="619.5" fill="rgb(0,0,0)"
                 font-style="normal" font-weight="normal" font-size="16px">
-                <tspan style="fill: white;">Datastructures and Algorithms</tspan>
+                <tspan style="fill: white;"> Сохтори додаҳо ва алгоритм</tspan>
               </text>
             </g>
-            <router-link v-tippy="{ content: 'Массивҳо ва ҳаволаҳо' }" to="/algorithms/arrays">
+            <router-link v-tippy="{ content: 'Arrays and Linked Lists' }" to="/algorithms/arrays">
               <g class="cursor-pointer" data-group-id="100-data-structures-and-algorithms:arrays-linked-lists">
                 <rect x="1015.35" y="667.35" width="219.3" height="39.3" rx="2" fill="rgb(255, 212, 59)" fill-opacity="1"
                   stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="1041" y="693.5" fill="rgb(0,0,0)"
                   font-style="normal" font-weight="normal" font-size="16px">
-                  <tspan>Arrays and Linked Lists</tspan>
+                  <tspan> Массивҳо ва ҳаволаҳо</tspan>
                 </text>
               </g>
             </router-link>
-            <router-link v-tippy="{ content: 'Стекҳо, тӯдаҳо ва навбатҳо' }" to="/algorithms/heaps">
+            <router-link v-tippy="{ content: 'Heaps, Stacks and Queues' }" to="/algorithms/heaps">
               <g class="cursor-pointer" data-group-id="101-data-structures-and-algorithms:heaps-stacks-queues">
                 <rect x="1015.35" y="712.35" width="219.3" height="39.3" rx="2" fill="rgb(255, 212, 59)" fill-opacity="1"
-                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="1028" y="737.5" fill="rgb(0,0,0)"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="1020" y="737.5" fill="rgb(0,0,0)"
                   font-style="normal" font-weight="normal" font-size="16px">
-                  <tspan>Heaps, Stacks and Queues</tspan>
+                  <tspan> Стекҳо, тӯдаҳо ва навбатҳо</tspan>
                 </text>
               </g>
             </router-link>
-            <router-link v-tippy="{ content: 'Хеш ҷадвалҳо' }" to="/algorithms/hash-tables">
+            <router-link v-tippy="{ content: 'Hash Tables' }" to="/algorithms/hash-tables">
               <g class="cursor-pointer" data-group-id="102-data-structures-and-algorithms:hash-tables">
                 <rect x="1016.35" y="758.35" width="219.3" height="39.3" rx="2" fill="rgb(255, 212, 59)" fill-opacity="1"
-                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="1081" y="784" fill="rgb(0,0,0)" font-style="normal"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="1071" y="784" fill="rgb(0,0,0)" font-style="normal"
                   font-weight="normal" font-size="16px">
-                  <tspan>Hash Tables</tspan>
+                  <tspan> Хеш ҷадвалҳо</tspan>
                 </text>
               </g>
             </router-link>
-            <router-link v-tippy="{ content: 'Дарахти ҷустуҷӯи бинарӣ' }" to="/algorithms/binary-search">
+            <router-link v-tippy="{ content: 'Binary Search Trees' }" to="/algorithms/binary-search">
               <g class="cursor-pointer" data-group-id="103-data-structures-and-algorithms:binary-search-trees">
                 <rect x="1015.35" y="803.35" width="219.3" height="39.3" rx="2" fill="rgb(255, 212, 59)" fill-opacity="1"
-                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="1052" y="829.5" fill="rgb(0,0,0)"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="1026" y="829.5" fill="rgb(0,0,0)"
                   font-style="normal" font-weight="normal" font-size="16px">
-                  <tspan>Binary Search Trees</tspan>
+                  <tspan> Дарахти ҷустуҷӯи бинарӣ</tspan>
                 </text>
               </g>
             </router-link>
-            <router-link v-tippy="{ content: 'Рекурсия' }" to="/algorithms/recursion">
+            <router-link v-tippy="{ content: 'Recursion' }" to="/algorithms/recursion">
               <g class="cursor-pointer" data-group-id="104-data-structures-and-algorithms:recursion">
                 <rect x="1015.35" y="849.35" width="219.3" height="39.3" rx="2" fill="rgb(255, 212, 59)" fill-opacity="1"
                   stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="1088" y="875" fill="rgb(0,0,0)" font-style="normal"
                   font-weight="normal" font-size="16px">
-                  <tspan>Recursion</tspan>
+                  <tspan> Рекурсия</tspan>
                 </text>
               </g>
             </router-link>
-            <router-link v-tippy="{ content: 'Ҷобаҷокунии алгоритмҳо' }" to="/algorithms/sorting">
+            <router-link v-tippy="{ content: 'Sorting Algorithms' }" to="/algorithms/sorting">
               <g class="cursor-pointer" data-group-id="105-data-structures-and-algorithms:sorting-algorithms">
                 <rect x="1015.35" y="895.35" width="219.3" height="39.3" rx="2" fill="rgb(255, 212, 59)" fill-opacity="1"
-                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="1059" y="921.5" fill="rgb(0,0,0)"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="1026" y="921.5" fill="rgb(0,0,0)"
                   font-style="normal" font-weight="normal" font-size="16px">
-                  <tspan>Sorting Algorithms</tspan>
+                  <tspan> Ҷобаҷокунии алгоритмҳо</tspan>
                 </text>
               </g>
             </router-link>
-            <g v-tippy="{ content: 'Мавзӯъҳои пешрафта' }" class="select-none" data-group-id="102-python-advanced-topics">
+            <g v-tippy="{ content: ' Advanced Topics' }" class="select-none" data-group-id="102-python-advanced-topics">
               <rect x="643.35" y="711.35" width="308.3" height="40.3" rx="2" fill="rgb(55, 118, 171)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="737" y="738.5" fill="rgb(0,0,0)"
+                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="710" y="738.5" fill="rgb(0,0,0)"
                 font-style="normal" font-weight="normal" font-size="16px">
-                <tspan style="fill: white;">Advanced Topics</tspan>
+                <tspan style="fill: white;">Мавзӯъҳои пешрафта</tspan>
               </text>
             </g>
             <g class="cursor-pointer" data-group-id="105-python-advanced-topics:modules">
               <rect x="601.35" y="805.35" width="112.3" height="139.3" rx="2" fill="rgb(255,255,255)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="627" y="833.5" fill="rgb(0,0,0)"
+                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="625" y="833.5" fill="rgb(0,0,0)"
                 font-style="normal" font-weight="normal" font-size="16px">
-                <tspan v-tippy="{ content: 'Модулҳо' }">Modules</tspan>
+                <tspan v-tippy="{ content: 'Modules' }"> Модулҳо</tspan>
               </text>
             </g>
             <router-link to="/topic/builtin">
@@ -273,27 +273,27 @@
                 </text>
               </g>
             </router-link>
-            <router-link v-tippy="{ content: 'Итераторҳо' }" to="/topic/iterators">
+            <router-link v-tippy="{ content: 'Iterators' }" to="/topic/iterators">
               <g class="cursor-pointer" data-group-id="104-python-advanced-topics:iterators">
                 <rect x="597.35" y="604.35" width="116.3" height="39.3" rx="2" fill="rgb(255, 212, 59)" fill-opacity="1"
-                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="625" y="630" fill="rgb(0,0,0)" font-style="normal"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="609" y="630" fill="rgb(0,0,0)" font-style="normal"
                   font-weight="normal" font-size="16px">
-                  <tspan>Iterators</tspan>
+                  <tspan> Итераторҳо</tspan>
                 </text>
               </g>
             </router-link>
-            <g v-tippy="{ content: 'Омӯзиши чаҳорчӯбаҳо' }" class="select-none" data-group-id="106-python-frameworks">
+            <g v-tippy="{ content: 'Learn a Framework' }" class="select-none" data-group-id="106-python-frameworks">
               <rect x="782.35" y="1131.35" width="229.3" height="40.3" rx="2" fill="rgb(55, 118, 171)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="827" y="1158" fill="rgb(0,0,0)" font-style="normal"
+                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="812" y="1158" fill="rgb(0,0,0)" font-style="normal"
                 font-weight="normal" font-size="16px">
-                <tspan style="fill: white;">Learn a Framework</tspan>
+                <tspan style="fill: white;"> Омӯзиши чаҳорчӯбаҳо</tspan>
               </text>
             </g>
-            <g v-tippy="{ content: 'Санҷиши барнома' }"  class="select-none" data-group-id="108-python-testing">
+            <g v-tippy="{ content: 'Testing your Apps' }"  class="select-none" data-group-id="108-python-testing">
               <rect x="753.35" y="1468.35" width="180.3" height="40.3" rx="2" fill="rgb(55, 118, 171)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="780" y="1495.5" fill="rgb(0,0,0)"
+                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="774" y="1495.5" fill="rgb(0,0,0)"
                 font-style="normal" font-weight="normal" font-size="16px">
-                <tspan style="fill: white;">Testing your Apps</tspan>
+                <tspan style="fill: white;"> Санҷиши барнома</tspan>
               </text>
             </g>
             <path d="M444 812.5Q444 770.1923076923076 444 735.5" fill="none" stroke="rgb(73,77,78)" stroke-width="4"
@@ -302,68 +302,68 @@
               <rect x="404.35" y="720.35" width="128.3" height="181.3" rx="2" fill="rgb(255,255,255)" fill-opacity="1"
                 stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="451" y="746.5" fill="rgb(0,0,0)"
                 font-style="normal" font-weight="normal" font-size="16px">
-                <tspan v-tippy="{ content: 'БОН' }">OOP</tspan>
+                <tspan v-tippy="{ content: 'OOP' }"> БОН</tspan>
               </text>
             </g>
-            <router-link v-tippy="{ content: 'Синфҳо' }" to="/topic/classes">
+            <router-link v-tippy="{ content: 'Classes' }" to="/topic/classes">
               <g class="cursor-pointer" data-group-id="102-python-advanced-topics:oop:classes">
                 <rect x="351.35" y="758.35" width="166.3" height="39.3" rx="2" fill="rgb(255, 212, 59)" fill-opacity="1"
                   stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="405" y="784" fill="rgb(0,0,0)" font-style="normal"
                   font-weight="normal" font-size="16px">
-                  <tspan>Classes</tspan>
+                  <tspan> Синфҳо</tspan>
                 </text>
               </g>
             </router-link>
-            <router-link v-tippy="{ content: 'Мерос' }" to="/topic/inheritance">
+            <router-link v-tippy="{ content: 'Inheritance' }" to="/topic/inheritance">
               <g class="cursor-pointer" data-group-id="101-python-advanced-topics:oop:inheritance">
                 <rect x="351.35" y="804.35" width="166.3" height="39.3" rx="2" fill="rgb(255, 212, 59)" fill-opacity="1"
-                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="392" y="830" fill="rgb(0,0,0)" font-style="normal"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="412" y="830" fill="rgb(0,0,0)" font-style="normal"
                   font-weight="normal" font-size="16px">
-                  <tspan>Inheritance</tspan>
+                  <tspan> Мерос</tspan>
                 </text>
               </g>
             </router-link>
-            <router-link v-tippy="{ content: 'Методҳо, Dunder' }" to="/topic/methods-and-dunder">
+            <router-link v-tippy="{ content: 'Methods, Dunder' }" to="/topic/methods-and-dunder">
               <g class="cursor-pointer" data-group-id="100-python-advanced-topics:oop:methods-dunder">
                 <rect x="351.35" y="850.35" width="166.3" height="39.3" rx="2" fill="rgb(255, 212, 59)" fill-opacity="1"
                   stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="370" y="876.5" fill="rgb(0,0,0)"
                   font-style="normal" font-weight="normal" font-size="16px">
-                  <tspan>Methods, Dunder</tspan>
+                  <tspan> Методҳо, Dunder</tspan>
                 </text>
               </g>
             </router-link>
-            <router-link v-tippy="{ content: 'Декораторҳо' }" to="/topic/decorators">
+            <router-link v-tippy="{ content: ' Decorators' }" to="/topic/decorators">
               <g class="cursor-pointer" data-group-id="102-python-advanced-topics:decorators">
                 <rect x="361.35" y="622.35" width="169.3" height="39.3" rx="2" fill="rgb(255, 212, 59)" fill-opacity="1"
-                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="405" y="648" fill="rgb(0,0,0)" font-style="normal"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="398" y="648" fill="rgb(0,0,0)" font-style="normal"
                   font-weight="normal" font-size="16px">
-                  <tspan>Decorators</tspan>
+                  <tspan>Декораторҳо</tspan>
                 </text>
               </g>
             </router-link>
-              <router-link v-tippy="{ content: 'Ифодаҳои муқаррарӣ' }" to="/topic/regular">
+              <router-link v-tippy="{ content: 'RegEx' }" to="/topic/regular">
                 <g class="cursor-pointer" data-group-id="101-python-advanced-topics:regular-expressions">
                   <rect x="362.35" y="576.35" width="168.3" height="39.3" rx="2" fill="rgb(255, 212, 59)" fill-opacity="1"
-                    stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="422" y="602" fill="rgb(0,0,0)" font-style="normal"
+                    stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="363" y="602" fill="rgb(0,0,0)" font-style="normal"
                     font-weight="normal" font-size="16px">
-                    <tspan>RegEx</tspan>
+                    <tspan> Ифодаҳои муқаррарӣ</tspan>
                   </text>
                 </g>
               </router-link>
-              <router-link v-tippy="{ content: 'Ламбдаҳо' }" to="/topic/lambdas">
+              <router-link v-tippy="{ content: ' Lambdas' }" to="/topic/lambdas">
                 <g class="cursor-pointer" data-group-id="103-python-advanced-topics:lambdas">
                   <rect x="360.35" y="668.35" width="171.3" height="39.3" rx="2" fill="rgb(255, 212, 59)" fill-opacity="1"
                     stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="412" y="694" fill="rgb(0,0,0)" font-style="normal"
                     font-weight="normal" font-size="16px">
-                    <tspan>Lambdas</tspan>
+                    <tspan>Ламбдаҳо</tspan>
                   </text>
                 </g>
               </router-link>
             <g class="cursor-pointer" data-group-id="105-python-package-managers">
               <rect x="360.35" y="920.35" width="170.3" height="190.3" rx="2" fill="rgb(255,255,255)" fill-opacity="1"
-                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="375" y="950.5" fill="rgb(0,0,0)"
+                stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="365" y="950.5" fill="rgb(0,0,0)"
                 font-style="normal" font-weight="normal" font-size="16px">
-                <tspan v-tippy="{ content: 'Менеҷерони бастаҳо' }">Package Managers</tspan>
+                <tspan v-tippy="{ content: 'Package Managers' }"> Менеҷерони бастаҳо</tspan>
               </text>
             </g>
             <router-link to="/topic/pypi">
@@ -393,39 +393,39 @@
                 </text>
               </g>
             </router-link>
-            <router-link v-tippy="{ content: 'Абстраксияи рӯйхат' }" to="/topic/comprehensions">
+            <router-link v-tippy="{ content: 'List Comprehensions' }" to="/topic/comprehensions">
               <g class="cursor-pointer" data-group-id="106-python-advanced-topics:list-comprehensions">
                 <rect x="323.35" y="1151.35" width="190.3" height="39.3" rx="2" fill="rgb(255, 212, 59)" fill-opacity="1"
                   stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="342" y="1177" fill="rgb(0,0,0)" font-style="normal"
                   font-weight="normal" font-size="16px">
-                  <tspan>List Comprehensions</tspan>
+                  <tspan> Абстраксияи рӯйхат</tspan>
                 </text>
               </g>
             </router-link>
-            <router-link v-tippy="{ content: 'Ифодаҳои генераторӣ' }" to="/topic/generator">
+            <router-link v-tippy="{ content: 'Generator Expressions' }" to="/topic/generator">
               <g class="cursor-pointer" data-group-id="107-python-advanced-topics:generator-expressions">
                 <rect x="323.35" y="1196.35" width="190.3" height="39.3" rx="2" fill="rgb(255, 212, 59)" fill-opacity="1"
                   stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="335" y="1222.5" fill="rgb(0,0,0)"
                   font-style="normal" font-weight="normal" font-size="16px">
-                  <tspan>Generator Expressions</tspan>
+                  <tspan> Ифодаҳои генераторӣ</tspan>
                 </text>
               </g>
             </router-link>
-            <router-link v-tippy="{ content: 'Парадигмаҳо' }" to="/topic/paradigms">
+            <router-link v-tippy="{ content: 'Paradigms' }" to="/topic/paradigms">
               <g class="cursor-pointer" data-group-id="108-python-advanced-topics:paradigms">
                 <rect x="323.35" y="1241.35" width="190.3" height="39.3" rx="2" fill="rgb(255, 212, 59)" fill-opacity="1"
-                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="380" y="1267.5" fill="rgb(0,0,0)"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="368" y="1267.5" fill="rgb(0,0,0)"
                   font-style="normal" font-weight="normal" font-size="16px">
-                  <tspan>Paradigms</tspan>
+                  <tspan> Парадигмаҳо</tspan>
                 </text>
               </g>  
             </router-link>
-            <router-link v-tippy="{ content: 'Синхронӣ' }" to="/frameworks/synchronous">
+            <router-link v-tippy="{ content: 'Synchronous' }" to="/frameworks/synchronous">
               <g class="cursor-pointer" data-group-id="100-python-frameworks:synchronous">
                 <rect x="1099.35" y="1057.35" width="152.3" height="40.3" rx="2" fill="rgb(255, 212, 59)" fill-opacity="1"
-                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="1129" y="1084" fill="rgb(0,0,0)"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="1139" y="1084" fill="rgb(0,0,0)"
                   font-style="normal" font-weight="normal" font-size="16px">
-                  <tspan>Synchronous</tspan>
+                  <tspan> Синхронӣ</tspan>
                 </text>
               </g>
             </router-link>
@@ -456,12 +456,12 @@
                 </text>
               </g>
             </router-link>
-            <router-link v-tippy="{ content: 'Асинхронӣ' }" to="/frameworks/asynchronous">
+            <router-link v-tippy="{ content: 'Asynchronous' }" to="/frameworks/asynchronous">
               <g class="cursor-pointer" data-group-id="101-python-frameworks:asynchronous">
                 <rect x="1096.35" y="1212.35" width="153.3" height="40.3" rx="2" fill="rgb(255, 212, 59)" fill-opacity="1"
-                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="1122" y="1239.5" fill="rgb(0,0,0)"
+                  stroke="rgb(0,0,0)" stroke-width="2.7"></rect><text x="1132" y="1239.5" fill="rgb(0,0,0)"
                   font-style="normal" font-weight="normal" font-size="16px">
-                  <tspan>Asynchronous</tspan>
+                  <tspan> Асинхронӣ</tspan>
                 </text>
               </g>
             </router-link>
